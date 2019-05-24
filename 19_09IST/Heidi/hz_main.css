@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  font-family: 'Slabo 27px', cursive;
+  background-color: cadetblue;
+  margin-top: -15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h2 {
+color: cadetblue;
+font-family: 'Slabo 27px', cursive;
+font-size: 30px;
+}
+
+footer {
+  color: white;
+  background-color: cadetblue;
+  text-align: center;
+font-family: 'Slabo 27px', cursive;
+font-size: 30px;
+}
+p {
+  font-size: 20px;
+}

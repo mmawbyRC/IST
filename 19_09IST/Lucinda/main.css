@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap');
+body{
+  width: 800px;
+  background-color: black;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+h1{
+  font-size: 45px;
+  font-weight: bold;
+  background-color: black);
+  border-radius: 30px;
+  background-image: url(Cogs.png);
+  width: 700px;
+  text-align: center;
+  font-family: 'Homemade Apple', sans-serif;
+  width: 800px;
+}
+h2{
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: rgb(105,105,105);
+  border-radius: 50px;
+}
+p{
+  color: rgb(119,136,153);
+  border-radius: 10px;
+}
+span{
+  color: white;
+  font-style: italic;
+}

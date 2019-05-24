@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Rammetto+One);
+body {box-sizing: border-box;
+
+}
+
+title {
+text-align: center;
+font-family:
+}
+body {
+background-color: white;
+text-align: center;
+font-family:'Helvetica Neue', sans-serif;
+margin: auto;
+width: 800px;
+
+}
+
+h1 {
+font-family: 'Rammetto One', cursive;
+color: white;
+font-weight: normal;
+text-transform: uppercase;
+font-size: 45px;
+background-color: rgb(255,192,203);
+margin-bottom: 15px;
+}
+h3{
+color: white;
+background-color: rgb(255,192,203);
+font-family: 'Rammetto One', cursive;
+text-transform: lowercase;
+}
+h2 {
+background-color: pink;
+color: white;
+font-weight: bold;
+text-decoration: underline;
+padding:10px 0px 10px 0px;
+border-radius: 40px;
+text-align: center;
+width: 300px;
+}
+p{
+text-align: center;
+}
+
+div{
+vertical-align: left;
+}

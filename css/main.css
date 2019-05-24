@@ -25,7 +25,9 @@ h2{
   color:rgb(255, 120, 120);
 }
 a{
-  text-decoration:none;
+    text-decoration:none;
+}
+article>a{
   font-size: 14px;
   margin-top: -20px;
   color:#3C455C;
@@ -33,22 +35,20 @@ a{
 nav {
   text-align:center;
 }
-nav>a{
-  font-family:"Exo 2",sans-serif;
-  font-size: 20px;
-  padding: 0px 30px;
-  border-left: 1px solid teal;
-  border-right: 1px solid teal;
-  color: white;
-}
+
 section{
   display:block;
-  width:70%;
+  width:50%;
   margin:20px auto ;
   text-align:center;
   padding: 10px 10%;
   background-color: white;
   line-height:1.5em;
+  border-radius: 75px 0px;
+}
+.quote{
+  text-align: right;
+  font-style: italic;
 }
 article>div{
   color:rgb(255, 120, 120);
@@ -59,7 +59,7 @@ article>div{
   padding: 50px 30px;
   margin: auto 5px;
   background-color: teal; /*#c2d4d8;*/
-  border-radius: 75px;
+  border-radius: 75px 0px;
 }
 h3{
   background-color: white;
@@ -82,22 +82,12 @@ li{
   list-style-type: circle;
   text-align: left;
 }
-.webdev{
-  width:80px;
-  height:80px;
-  border-radius: 40px;
-  margin: 0 -5px;
+.groupphoto{
+  float:left;
+  width:30%;
+  padding: 10px 10px 0 0;
 }
-.webdev>h3{
-  background-color: white;
-  width: 80px;
-  margin-top: -20px;
-  padding-bottom: 30px;
-  line-height: 1.2;
-}
-.wd1{
-    background-color: lightblue;
-}
-.wd2{
-    background-color: #dbe9d8;
+#ai_10ist{
+  text-align:left;
+
 }
