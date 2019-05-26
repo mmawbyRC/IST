@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+body {
+  margin:auto;
+width: 600px;
+background-color: white;
+color: cornflowerblue;
+}
+h1{
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Staatliches';
+}
+h2{
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  background-color: cornflowerblue;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px 60px;
+  border-radius: 50px;
+  font-family: 'Staatliches';
+}
+p{
+  font-size: 14px;
+  color: black;
+}
+img {
+  width: 90%;
+}
