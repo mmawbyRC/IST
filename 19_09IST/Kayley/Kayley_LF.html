@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Digital Media for Learning Festival</title>
+		<link href="main.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="title">
+		<h1>Digital Media</h1>
+		<h3 class="name">Kayley</h3>
+		<hr size=3 color=black line-height=5 width=90%>
+		<h4>About:</h4>
+		<p class="description">Digital media is digitised content that can be passed over the internet or computer networks. This can include text, audio, video and graphics. This could include social media, digital audio (such as MP3), digital books, and many more options. To transmit this digital media and across the internet, you need to encode it all. Encoding is the process of putting a sequence of characters (letters, numbers, punctuation, and symbols), into a specialised format for efficient transmission or storage.</p>
+		<hr size=3 color=black line-height=5 width=80%>
+</div>
+<div class ="textEncoding">
+		<h2>Text Encoding</h2>
+		<h3>Definition</h3>
+		<p class="tEncodingDescription">Text encoding, otherwise known as character encoding, is the process of representing individual characters using a corresponding encoding system, such as ASCII or Unicode.</p>
+		<p class="textEncodingDesc">It tells the computer how to interpret raw zeros and ones into real characters.</p>
+		<h3>Example</h3>
+		<p class="textExample">(show example)</p>
+		<h3>Problem & Solution:</h3>
+	</div>
+		<div class="javaScript">
+
+	<p style="font-size: 15px;"><strong>Convert this binary number, 01010111 01100101 01101100 01100011 01101111 01101101 01100101 00100001, to ASCII (letters and symbols) using the table below: </strong></p>
+</div>
+<img src="page_1.jpg" alt="ASCII Conversion Chart">
+<div class="answerButton">
+    <input id="answer">
+    <button id="button">Check answer</button>
+</div>
+<div class="results">
+    <h5 id="result">...</h5>
+</div>
+
+    <script>
+function clickAction(){
+				result.textContent = 'Nope! The correct answer should have been, Welcome!';
+				if (answer.value == 'Welcome!') {
+					result.textContent = "That's correct!";
+					result.classList.add('correct');
+				}
+}
+				button.onclick = clickAction;
+
+  function inputAction() {
+    result.textContent = '...';
+  }
+  answer.oninput = inputAction;
+    </script>
+</div>
+	</body>
+</html>
