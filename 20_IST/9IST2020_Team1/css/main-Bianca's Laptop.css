@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@font-face{ font-family: Jellyfruit; src: url("../Fonts/Jellyfruit.otf")}
+* { box-sizing: border-border-box;}
+h1 {
+  font-family: Jellyfruit, fantasy;
+  text-align: center;
+  font-size: 100px;
+  color: rgb(115, 196, 226);
+}
+h2 {
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 43;
+  color: rgb(59, 114, 170);
+  padding: 0px 15px;
+}
+h3, p {
+  font-family: 'Lato', sans-serif;
+  color: rgb(32, 55, 96)
+}
+ul {
+  list-style: circle;
+}
+li {
+  font-family: 'Lato', sans-serif;
+  color: rgb(32,55,96);
+
+}
+body {
+  background-color: rgb(240, 211, 221);
+  margin: 20px 50px;
+}
+nav {
+  background-color: rgb(59, 114, 170);
+}
+nav > ul, nav > ul > ul {
+  list-style: none;
+}

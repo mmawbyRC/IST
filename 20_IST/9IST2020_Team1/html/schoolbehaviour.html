@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/nav.css">
+  <title>Behaviour at School</title>
+  </head>
+  <header>
+    <h1>Behaviour at School</h1>
+    <nav>
+      <ul>
+        <li><a href="nav.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Uniform</a>
+          <ul>
+            <li><a href="Summeruniform.html">Summer</a></li>
+            <li><a href="winteruniform.html">Winter</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Homework</a>
+          <ul>
+            <li><a href="expectations.html">Expectations</a></li>
+            <li><a href="studytips.html">Study Tips</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Behaviour</a>
+          <ul>
+            <li><a href="schoolbehaviour.html">At School</a></li>
+            <li><a href="publicbehaviour.html">In Public</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <p>Students are expected to be respectful to their peers, their teachers and the campus.</p>
+    <h2>Behaviour towards peers</h2>
+    <p>Students are expected to be kind to their peers. Bullying in any forms is not tolerated. Girls are to be respectful of others personal space and belongings.</p>
+<img src="../images/Sample Picture.png" alt="Sample picture">
+    <p>Filming others without their permission at school is prohibited.</p>
+    <h2>Behaviour towards teachers</h2>
+    <p>Students are expected to treat teachers with respect and listen to their instructions at all times. When emailing teachers email etiquette is to be followed.</p>
+    <h2>Behaviour towards the campus</h2>
+    <p>Girls are not to litter anywhere in the school and chewing gum is prohibited. Girls are also discouraged from graffiting the desks.</p>
+    <p>When in the upper levels of the school, girls are to not throw things off the balcony. Girls are also to keep all their belongings with them. At the end of each term lockers are to be cleaned out of food and books.</p>
+    <h2>Quiz</h2>
+    <p>Take this quiz to see if you are a respectful student.</p>
+    <p>If a student you don't like is approaching you, a good thing to do is insult them.</p>
+    <input type="radio" name="answer"  value="true">True</input>
+    <input type="radio" name="answer" id="ans1" value="false">False</input>
+    <button id="answer1">Submit</button>
+    <p>When emailing a teacher you use email etiquette</p>
+    <input type="radio" name="answer" id="ans2" value="true">True</input>
+    <input type="radio" name="answer" value="false">False</input>
+    <button id="answer2">Submit</button>
+    <p>Chewing gum at school is acceptable</p>
+    <input type="radio" name="answer" value="true">True</input>
+    <input type="radio" name="answer" id="ans3" value="false">False</input>
+    <button id="answer3">Submit</button>
+    <p></p>
+    <button id="calculate">Calculate answer</button>
+    <p id=result></p>
+    <footer>
+      <p>A Guide to Roseville College</p>
+      <p>©A Team Of People LLC</p>
+    </footer>
+    <script>
+    let i = 0;
+    function answered1() {
+      answer1.textContent = "Submitted!"
+      if (ans1.checked) {
+        i++;
+        console.log(i);
+      }
+    }
+      function answered2() {
+        answer2.textContent = "Submitted!"
+        if (ans2.checked) {
+          i++;
+          console.log(i);
+        }
+      }
+        function answered3() {
+          answer3.textContent = "Submitted!"
+          if (ans3.checked) {
+            i++;
+            console.log(i);
+          }
+        }
+        answer1.onclick = answered1;
+        answer2.onclick = answered2;
+        answer3.onclick = answered3;
+
+        function resultgiver() {
+        if (i==2) {
+          result.textContent = "So close! Re-read the page and you'll get it next time!";
+          console.log("meh");
+        }
+        else if (i==3) {
+          result.textContent = "Congrats! All correct! You are a respectful student! Good job!";
+          console.log("good");
+        }
+        else{
+          result.textContent = "Hmm, you didn't do very well. Re-read the page and try again...";
+          console.log("bad");
+      }
+    }
+        calculate.onclick = resultgiver;
+    </script>
+    </body>
+    </html>

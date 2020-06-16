@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	width: 100%;
+	height: 100%
+	background-color: #ebf0f7;
+}
+
+body {
+	width: 100%;
+	background-color: #ebf0f7;
+}
+
+h1 {
+	font-size: 80px;
+	line-height: 88px;
+	color: #2e4052;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.header__container {
+	max-width: 1154px;
+	margin-left: 143px;
+	margin-right: 100px;
+	padding-top: 100px;
+}
+
+a {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+	color: #ed9978;
+	line-height: 32px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #d5d5d5;
+	text-decoration: none;
+}
+
+a:hover {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+	color: #f3bba5;
+	line-height: 32px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+.main_container {
+	width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: : 30px;
+	margin-top: 30px;
+	display:inline-block;
+
+}
+
+.section1 {
+	width: 100%;
+	padding-left: 28px;
+	border-top: 1px solid #d5d5d5;
+	padding-top: 20px;
+	border-bottom: 1px solid #d5d5d5;
+	padding-bottom: 20px;
+	display:inline-block;
+
+}
+
+.number {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 35px;
+	color: #131415;
+	letter-spacing: 0;
+	line-height: 51px;
+	margin-bottom: 17px
+}
+
+h2 {
+	font-size: 40px;
+	letter-spacing: 0;
+	line-height: 51px;
+	margin-bottom: 6px;
+	color: #2e4052;
+	font-family: 'Bebas Neue', cursive
+}
+
+h3 {
+
+}
+
+p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #2e4052;
+	font-family: Montserrat, sans-serif;
+	display:inline-block;
+
+}
+
+.list {
+	font-size: 18px;
+	line-height: 32px;
+	color: #2e4052;
+	font-family: Montserrat, sans-serif;
+	padding-right: 400px;
+}
+
+main {
+	width: 100%;
+	margin-bottom: 250px;
+	display:inline-block;
+
+
+}
+
+video {
+	height: 60%;
+	width: 400px;
+	display:inline-block;
+}
+.home {
+	font-family: 'Bebas Neue',cursive;
+	color: #2e4052;
+	text-decoration:none;
+	border-bottom: 1px solid #ebf0f7;
+}
+.home:hover {
+	font-family: 'Bebas Neue',cursive;
+	color: #5c80a3;
+	text-decoration:none;
+	border-bottom: 1px solid #ebf0f7;

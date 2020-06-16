@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@font-face{ font-family: Jellyfruit; src: url("../Fonts/Jellyfruit.otf")}
+* { box-sizing: border-border-box;}
+
+/* Main Titles */
+
+h1 {
+  font-family: Jellyfruit, fantasy;
+  text-align: center;
+  font-size: 100px;
+  color: rgb(115, 196, 226);
+}
+
+h2 {
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 43;
+  color: rgb(59, 114, 170);
+  padding: 0px 15px;
+}
+
+h3, p, a, ul {
+  font-family: 'Lato', sans-serif;
+  color: rgb(32, 55, 96);
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(240, 211, 221);
+  margin: 100;
+}
+
+/* Lists */
+
+ul {
+  list-style: circle;
+}
+
+li {
+  font-family: 'Lato', sans-serif;
+  color: rgb(32,55,96);
+
+}
+
+/* Nav Bar */
+
+nav {
+  background-color: rgb(237, 140, 173);
+  overflow: hidden;
+}
+nav > ul, nav > ul > ul {
+  list-style: none;
+  /*display: inline-block;*/
+  padding: 14px auto 16px;
+}
+.uniform, .homework, .behaviour {
+  display: none;
+}
+
+a:hover + .uniform{
+  display: inline-block;
+}
+
+a:hover + .homework{
+  display: inline-block;
+}
+
+a:hover + .behaviour{
+  display: inline-block;
+}
+/*nav > ul:hover > ul {
+  display: inline-block;
+}
+*/
+nav > ul > ul > li:hover {
+  background-color: rgb(255, 255, 255)
+}
+header {
+  background-color: rgb(32, 55, 96);
+  padding: 5px;
+}
+
+/* Images */
+
+img {
+  float: right;
+  width: 500px;
+  overflow: auto;
+}

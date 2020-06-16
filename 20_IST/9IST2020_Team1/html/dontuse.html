@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+
+<! Hi Am/Beak (whoever sees it first), I did some work on the thing
+  And I added comments so you can kinda understand what I did,
+  I might do more work tmr (sunday) but i'm not rly bothered rn.
+
+  I've got the thing checking the amount of work done (kinda)
+  But it's not checking if it's bigger or smaller. Hope you can kinda
+  understand what i mean in my comments, but if not I can tell u guys on
+  Mon.
+  - Bank !>
+<! WOOW THANKssss! (but the else if statments are still not working because
+they are stoopid). i can try and fix it but i might be too stupid
+- am the bum !>
+
+
+
+<html>
+<head>
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Study Expectations</title>
+  </head>
+<body>
+  <header>
+    <h1>Study Expectations</h1>
+  </header>
+  <h2>Study Calculator</h2>
+  <p>Use the calculator below to see if you are doing the required amount of work for your year.</p>
+  <! to select year */ !>
+  <label id="yearSelector">
+        <select id="yearInput">
+        <option value="base"></option>
+        <option value="y7">Year 7</option>
+        <option value="y8">Year 8</option>
+        <option value="y9">Year 9</option>
+        <option value="y10">Year 10</option>
+        <option value="y11">Year 11</option>
+        <option value="y12">Year 12</option>
+      </select>
+      <!to select how much work !>
+  <label id="workSelector">
+        <select id="workInput">
+        <option value="base"></option>
+        <option value="30">0 - 30 mins</option>
+        <option value="60">30 - 60 mins</option>
+        <option value="90">1 - 2 hours</option>
+        <option value="150">2 - 3 hours</option>
+        <option value="210">3 - 5 hours</option>
+        <option value="300">5+ hours</option>
+      </select>
+
+      <! Displaying results !>
+ <p id="result">Year</p>
+ <p id="workResult">Work</p>
+
+ <script>
+
+ /* I've tried to change the input from the user
+    from an option thing to a int, but I don't
+    think its working so I think that this is the
+    problem line */
+
+ workdone = parseInt(workSelector)
+
+ function update() {
+    result.textContent = "?";
+/* Checking year */
+    if (yearInput.value == 'y7') {
+      result.textContent = 'you are in year 7';
+
+      /* Defining a var for amount of work.
+         I read that not using var or let
+         makes it a global variable which
+         I think is what we need for this
+         thingo. */
+
+      workamount = 60;
+      }
+
+    else if (yearInput.value == 'y8') {
+      result.textContent = 'you are in year 8';
+      workamount = 60;
+    }
+
+    else if (yearInput.value == 'y9') {
+      result.textContent = 'you are in year 9';
+      workamount = 90;
+    }
+
+    else if (yearInput.value == 'y10') {
+      result.textContent = 'you are in year 10';
+      workamount = 90;
+    }
+
+    else if (yearInput.value == 'y11') {
+      result.textContent = 'you are in year 11';
+      workamount = 120;
+    }
+
+    else {
+      result.textContent = 'you are in year 12';
+      workamount = 120;
+    }
+  }
+
+  /* This function checks the amount of work workdone
+     with the required work. For some reason, it's skipping
+     the first 2 lines and going straight to the else.
+     Idk why */
+
+ function checkWork() {
+   if (workamount > workdone){
+     workResult.textContent = "You LAZYYYYY";
+   }
+   else if (workamount < workdone) {
+     workResult.textContent = "Slow your horses"
+   }
+   else {
+     workResult.textContent = "you gud bruh"
+   }
+ }
+
+ /* One for the year and one for the work */
+  yearSelector.onchange = update;
+  workSelector.onchange = checkWork;
+</script>
+</body>
+</html>

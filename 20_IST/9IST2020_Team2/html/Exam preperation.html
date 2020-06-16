@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Exam Preperation</title>
+      <link href="../css/exampreperation.css" rel="stylesheet">
+   </head>
+   <body>
+      <div class="header__container">
+         <a class=home href="Home page.html">Home</a>
+         <h1>Strategies<br>
+            For<br>
+            Exam preperation
+         </h1>
+         <p >Exams can be stressful, but being prepared can help manage stress and allow you to perform at your best.There are lots of techniques you can try and resources available to make sure you get the most out of your exam study.</p>
+      </div>
+      <main>
+            <div class="main_container">
+               <div class="section1 ">
+                     <p class="number">01</p>
+                     <h2>Be prepared</h2>
+                     <p>It is important to start your exam preparation early to give yourself the best chance of retaining the information you need and giving it the meaning that will help you to excel in your exam.</p>
+                   <div id="showdiv">
+                     	<a href="javascript:show()" id="change1">Make a study plan+</a>
+                     <div id="hidediv" style="display:none">
+                       <p class=list >A great way to start prepare for your exam is to devise a routine. Research suggests that short study blocks with frequent breaks are most effective. Combine this with mixing the subject areas throughout the day to give yourself more variety. Also, set yourself clear daily, weekly and monthly targets.</p>
+                        <video src="../video/exampreperation1.mp4" alt="1" autoplay loop muted>
+                      </div>
+                 </div>
+               </div>
+
+               <div class="section1 ">
+                     <p class="number">02</p>
+                     <h2>Regular revision </h2>
+                     <p class=list >testsdfeojoeowecoenceiwncenencejnjentjwentjen>
+                  </div>
+               </div>
+
+
+      </main>
+      <script>
+      function show(){
+				document.getElementById("hidediv").style.display="block";
+				document.getElementById("change1").innerHTML="Make a study plan-";
+				document.getElementById("change1").href="javascript:hide()";
+			}
+    </script>
+    <script>
+      function hide(){
+      				document.getElementById("hidediv").style.display="none";
+      				document.getElementById("change1").innerHTML="Make a study plan+";
+      				document.getElementById("change1").href="javascript:show()";
+      			}
+            </script>
+     </body>
+
+
+</html>

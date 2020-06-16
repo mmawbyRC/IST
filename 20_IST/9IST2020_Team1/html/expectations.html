@@ -1,0 +1,175 @@
+<html>
+<head>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/nav.css">
+  <title>Study Expectations</title>
+  </head>
+  <body>
+    <header>
+      <h1>Study Expectations</h1>
+      <nav>
+        <ul>
+          <li><a href="nav.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Uniform</a>
+            <ul>
+              <li><a href="Summeruniform.html">Summer</a></li>
+              <li><a href="winteruniform.html">Winter</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Homework</a>
+            <ul>
+              <li><a href="expectations.html">Expectations</a></li>
+              <li><a href="studytips.html">Study Tips</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Behaviour</a>
+            <ul>
+              <li><a href="schoolbehaviour.html">At School</a></li>
+              <li><a href="publicbehaviour.html">In Public</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h2>Study Calculator</h2>
+    <section>
+    <p>Use the calculator below to see if you are doing the required amount of work for your year.</p>
+    <label id="yearSelector">
+          <select id="yearInput">
+          <option value="base"></option>
+          <option value="y7">Year 7</option>
+          <option value="y8">Year 8</option>
+          <option value="y9">Year 9</option>
+          <option value="y10">Year 10</option>
+          <option value="y11">Year 11</option>
+          <option value="y12">Year 12</option>
+        </select>
+    <label id="workSelector">
+          <select id="workInput">
+          <option value="base"></option>
+          <option value="30">0 - 30 mins</option>
+          <option value="60">30 - 60 mins</option>
+          <option value="90">1 - 2 hours</option>
+          <option value="150">2 - 3 hours</option>
+          <option value="210">3 - 5 hours</option>
+          <option value="300">5+ hours</option>
+        </select>
+    <p id="result">Please select a year.</p>
+  </section>
+  <footer>
+    <p>A Guide to Roseville College</p>
+    <p>©A Team Of People LLC</p>
+  </footer>
+    <script>
+      function update() {
+        let workdone = parseInt(workInput.value)
+        if (yearInput.value == 'y7') {
+          if (workdone < 31) {
+            result.textContent = 'You are in Year 7 and you do 0-30 mins of work.';
+          } else if (workdone < 61) {
+            result.textContent = 'You are in Year 7 and you do 30-60 mins of work.';
+          } else if (workdone < 91) {
+            result.textContent = 'You are in Year 7 and you do 1-2 hours of work.';
+          } else if (workdone < 151) {
+            result.textContent = 'You are in Year 7 and you do 2-3 hours of work.';
+          } else if (workdone < 211) {
+            result.textContent = 'You are in Year 7 and you do 3-5 hours of work.';
+          } else if (workdone < 301) {
+            result.textContent = 'You are in Year 7 and you do 5+ hours of work.';
+          } else {
+            result.textContent = 'Please select a work value.'
+          }
+        }
+        if (yearInput.value == 'y8') {
+          if (workdone < 31) {
+            result.textContent = 'You are in Year 8 and you do 0-30 mins of work.';
+          } else if (workdone < 61) {
+            result.textContent = 'You are in Year 8 and you do 30-60 mins of work.';
+          } else if (workdone < 91) {
+            result.textContent = 'You are in Year 8 and you do 1-2 hours of work.';
+          } else if (workdone < 151) {
+            result.textContent = 'You are in Year 8 and you do 2-3 hours of work.';
+          } else if (workdone < 211) {
+            result.textContent = 'You are in Year 8 and you do 3-5 hours of work.';
+          } else if (workdone < 301) {
+            result.textContent = 'You are in Year 8 and you do 5+ hours of work.';
+          } else {
+            result.textContent = 'Please select a work value.'
+          }
+        }
+        if (yearInput.value == 'y9') {
+          if (workdone < 31) {
+            result.textContent = 'You are in Year 9 and you do 0-30 mins of work.';
+          } else if (workdone < 61) {
+            result.textContent = 'You are in Year 9 and you do 30-60 mins of work.';
+          } else if (workdone < 91) {
+            result.textContent = 'You are in Year 9 and you do 1-2 hours of work.';
+          } else if (workdone < 151) {
+            result.textContent = 'You are in Year 9 and you do 2-3 hours of work.';
+          } else if (workdone < 211) {
+            result.textContent = 'You are in Year 9 and you do 3-5 hours of work.';
+          } else if (workdone < 301) {
+            result.textContent = 'You are in Year 9 and you do 5+ hours of work.';
+          } else {
+            result.textContent = 'Please select a work value.'
+          }
+        }
+        if (yearInput.value == 'y10') {
+          if (workdone < 31) {
+            result.textContent = 'You are in Year 10 and you do 0-30 mins of work.';
+          } else if (workdone < 61) {
+            result.textContent = 'You are in Year 10 and you do 30-60 mins of work.';
+          } else if (workdone < 91) {
+            result.textContent = 'You are in Year 10 and you do 1-2 hours of work.';
+          } else if (workdone < 151) {
+            result.textContent = 'You are in Year 10 and you do 2-3 hours of work.';
+          } else if (workdone < 211) {
+            result.textContent = 'You are in Year 10 and you do 3-5 hours of work.';
+          } else if (workdone < 301) {
+            result.textContent = 'You are in Year 10 and you do 5+ hours of work.';
+          } else {
+            result.textContent = 'Please select a work value.'
+          }
+        }
+        if (yearInput.value == 'y11') {
+          if (workdone < 31) {
+            result.textContent = 'You are in Year 11 and you do 0-30 mins of work.';
+          } else if (workdone < 61) {
+            result.textContent = 'You are in Year 11 and you do 30-60 mins of work.';
+          } else if (workdone < 91) {
+            result.textContent = 'You are in Year 11 and you do 1-2 hours of work.';
+          } else if (workdone < 151) {
+            result.textContent = 'You are in Year 11 and you do 2-3 hours of work.';
+          } else if (workdone < 211) {
+            result.textContent = 'You are in Year 11 and you do 3-5 hours of work.';
+          } else if (workdone < 301) {
+            result.textContent = 'You are in Year 11 and you do 5+ hours of work.';
+          } else {
+            result.textContent = 'Please select a work value.'
+          }
+        }
+        if (yearInput.value == 'y12') {
+          if (workdone < 31) {
+            result.textContent = 'You are in Year 12 and you do 0-30 mins of work.';
+          } else if (workdone < 61) {
+            result.textContent = 'You are in Year 12 and you do 30-60 mins of work.';
+          } else if (workdone < 91) {
+            result.textContent = 'You are in Year 12 and you do 1-2 hours of work.';
+          } else if (workdone < 151) {
+            result.textContent = 'You are in Year 12 and you do 2-3 hours of work.';
+          } else if (workdone < 211) {
+            result.textContent = 'You are in Year 12 and you do 3-5 hours of work.';
+          } else if (workdone < 301) {
+            result.textContent = 'You are in Year 12 and you do 5+ hours of work.';
+          } else {
+            result.textContent = 'Please select a work value.'
+          }
+        }
+      }
+      yearSelector.onchange = update;
+    </script>
+    </body>
+    </html>

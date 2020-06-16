@@ -1,0 +1,100 @@
+<DOCTYPE! HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/nav.css">
+  <title>Winter Uniform</title>
+  </head>
+<body>
+  <header>
+  <h1>Winter Uniform</h1>
+  <nav>
+    <ul>
+      <li><a href="nav.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#">Uniform</a>
+        <ul>
+          <li><a href="Summeruniform.html">Summer</a></li>
+          <li><a href="winteruniform.html">Winter</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Homework</a>
+        <ul>
+          <li><a href="expectations.html">Expectations</a></li>
+          <li><a href="studytips.html">Study Tips</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Behaviour</a>
+        <ul>
+          <li><a href="schoolbehaviour.html">At School</a></li>
+          <li><a href="publicbehaviour.html">In Public</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</header>
+  <section>
+  <h3><span href="https://www.roseville.nsw.edu.au/community/organised/uniform-shop">Click here</span> to visit the Uniform Shop if you need to purchase any of the items listed below.</p>
+  <p>Please select your year:</p>
+  <label id="yearSelector">
+        <select id="yearInput">
+        <option value="base"></option>
+        <option value="7">Year 7</option>
+        <option value="8">Year 8</option>
+        <option value="9">Year 9</option>
+        <option value="10">Year 10</option>
+        <option value="11">Year 11</option>
+        <option value="12">Year 12</option>
+      </select>
+    </section>
+  <img src="../images/winter-uniform.jpeg" alt="Winter Uniform" style="width:200px; margin-top: 100px; margin-right: 900px; border-radius: 25px;"></img>
+  <h2>Compulsory Clothing</h2>
+  <ul>
+    <li>White Shirt (short or long sleeved)</li>
+    <li>Skirt</li>
+    <li>Blazer</li>
+    <li>Navy Blue Tights</li>
+    <li>Black School Shoes</li>
+  </ul>
+  <img src="../images/people.jpg" alt="Girls Wearing the Winter Uniform" style="width:700px; margin-top: 1px; margin-right: 100px; border-radius: 25px;"></img>
+  <h2>Optional Clothing</h2>
+  <ul>
+    <li>Navy Blue Socks (replacement for tights)</li>
+    <li id="jumper">Maroon Jumper</li>
+    <li>Gold/silver earrings (studs)</li>
+  </ul>
+  <img src="../images/winter-sport.jpeg" alt="P.E Uniform" style="width:200px; margin-right: 900px; border-radius: 25px;"></img>
+  <h2>P.E Uniform</h2>
+  <ul>
+    <li>White Shirt</li>
+    <li>Shorts</li>
+    <li>White Socks</li>
+    <li>Sneakers</li>
+    <li>P.E Jacket</li>
+    <li>Tracksuit Pants</li>
+  </ul>
+  <h2>Uniform Rules</h2>
+  <ul>
+    <li>Skirts must be knee length.</li>
+    <li>Blazers must be worn to and from school (not compulsory during school hours).</li>
+    <li>Socks must be visible (sport socks are not permitted).</li>
+    <li>Jumpers must be carried or put away when not being worn.</li>
+    <li>Jumpers must not be worn to and from school (unless a blazer is being worn over the top).</li>
+  </ul>
+  <footer>
+    <p>A Guide to Roseville College</p>
+    <p>©A Team Of People LLC</p>
+  </footer>
+  <script>
+  function update() {
+    let yearnum = parseInt(yearInput.value)
+    if (yearnum > 9) {
+      jumper.textContent = "Navy Blue Jumper";
+    }
+  }
+  yearInput.onchange = update;
+  </script>
+</body>
+</html>

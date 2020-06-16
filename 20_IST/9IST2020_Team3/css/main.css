@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Balsamiq+Sans);
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC);
+@import url(https://fonts.googleapis.com/css?family=Lora+Bold);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+h1 {
+  font-family:"Amatic SC";
+  margin-left:15px;
+}
+h2 {
+  font-family: "Patrick Hand SC";
+  margin-left:15px;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+h3{
+  font-family:"Amatic SC";
+  margin-left:15px;
+}
+p {
+  font-family:"Balsamiq Sans";
+  margin-left:15px;
+}
+li {
+  font-family:"Balsamiq Sans";
+}
+strong {
+  color:rgb(255, 165, 0);
+}
