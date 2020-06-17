@@ -24,9 +24,16 @@ header>h1{
 h2{
   color:rgb(255, 120, 120);
 }
-a{
-    text-decoration:none;
+summary{
+  color:teal;
+  background-color:#dbe9d8;
+  border: 1px solid teal;
 }
+a, a:visited{
+  text-decoration:none;
+  color: teal;
+}
+
 article>a{
   font-size: 14px;
   margin-top: -20px;
@@ -36,9 +43,7 @@ nav {
   text-align:center;
 }
 
-section{
-  display:block;
-  width:50%;
+main, section{
   margin:20px auto ;
   text-align:center;
   padding: 10px 10%;
@@ -46,11 +51,15 @@ section{
   line-height:1.5em;
   border-radius: 75px 0px;
 }
+main{
+  width:75%
+}
+
 .quote{
   text-align: right;
   font-style: italic;
 }
-article>div{
+div{
   color:rgb(255, 120, 120);
   display:inline-block;
   vertical-align:middle;
@@ -61,12 +70,20 @@ article>div{
   background-color: teal; /*#c2d4d8;*/
   border-radius: 75px 0px;
 }
-h3{
+h3,h4{
   background-color: white;
   width: 150px;
   padding: 0px 20px;
   margin:auto -30px;
   vertical-align:middle;
+}
+h4{
+  width: 100px;
+}
+details>div{
+  width:100px;
+  height:100px;
+  border-radius: 50px 0;
 }
 
 footer{
@@ -90,4 +107,9 @@ li{
 #ai_10ist{
   text-align:left;
 
+}
+.myyears{
+  width:100%;
+  display:flex;
+  justify-content:center;
 }
