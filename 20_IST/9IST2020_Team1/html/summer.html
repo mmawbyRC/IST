@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+
+<! hi i added a sport section and moved the uniform shop link to the top
+because it looks better ok bye - am the bum
+also i totally did not steal your jumper idea !>
+
+<html>
+<head>
+  <title>Summer Uniform</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/nav.css">
+  </head>
+  <body>
+    <header>
+    <h1>Summer Uniform at Roseville</h1>
+    <nav>
+      <ul>
+        <li><a href="nav.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Uniform</a>
+          <ul>
+            <li><a href="summer.html">Summer</a></li>
+            <li><a href="winteruniform.html">Winter</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Homework</a>
+          <ul>
+            <li><a href="expectations.html">Expectations</a></li>
+            <li><a href="studytips.html">Study Tips</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Behaviour</a>
+          <ul>
+            <li><a href="schoolbehaviour.html">At School</a></li>
+            <li><a href="publicbehaviour.html">In Public</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <h3 >If you need a new uniform, <a class="uniformButton" href="https://www.roseville.nsw.edu.au/community/organised/uniform-shop">click here</a>, for the uniform shop website to make a booking.</h3>
+    <p>Please select your year:</p>
+    <select id="yearselect">
+          <option value="base"></option>
+          <option value = 7>Year 7</option>
+           <option value = 8>Year 8</option>
+           <option value = 9>Year 9</option>
+           <option value = 10>Year 10</option>
+           <option value = 11>Year 11</option>
+           <option value = 12>Year 12</option>
+         </select>
+</section>
+<img src="../images/Summer Uniform.jpg" alt = "Three girls wearing the Roseville College Summer Uniform on Bancroft Avenue" style="text-align: right; width: 25%; height: 25%;">
+    <h2>Compulsory clothing</h2>
+    <ul class="comp">
+      <li>Blue Summer dress</li>
+      <li>White socks</li>
+      <li>School shoes</li>
+      <li>Panama</li>
+    </ul>
+    <h2>Optional clothing</h2>
+    <ul class="opti">
+      <li>Blazer</li>
+      <li id="jumper">Maroon jumper</li>
+      <li>School ribbons</li>
+      <li>Gold/silver school earrings</li>
+    </ul>
+    <img src="../images/Sport uniform.jpeg" alt = "Roseville College Sport uniform" style="text-align: right; width: 15%; height: 20%;">
+    <h2>P.E Uniform</h2>
+    <ul class="pe">
+      <li>White Shirt</li>
+      <li>Shorts</li>
+      <li>White Socks</li>
+      <li>Sneakers</li>
+      <li>Sports Cap</li>
+    </ul>
+<h2>Expectations</h2>
+<ul class="expecta">
+  <li>Skirt length is at the knee</li>
+  <li>No jewlery except for watches</li>
+  <li>Panama is always worn outside of school</li>
+  <li>Socks must able to be seen</li>
+</ul>
+    <script>
+    function yrselect() {
+      let myyear = parseInt(yearselect.value)
+      if (myyear > 9) {
+        jumper.textContent = "Blue jumper";
+      }
+      else {
+      jumper.textContent = "Maroon jumper";
+      }
+    }
+    yearselect.onchange = yrselect;
+    </script>
+    </body>
+    <footer>
+      <p>A Guide to Roseville College</p>
+      <p>©A Team Of People LLC (page by Bianca)</p>
+    </footer>
+    </html>

@@ -5,22 +5,17 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/indexmainnav.css">
   </head>
-  <body>
+  <body style="background-color:snow">
         <h1 class='titleES'>~ STUDENT HEALTH & WELLNESS ~</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a>Study Skills</a>
+        <nav>
           <ul>
-            <li><a href="GS.html">Goal Setting</a></li>
-            <li><a href="ES.html">Exams and Stress</a></li>
-            <li><a href="TM.html">Time Management</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-     <header alt='Notebook, pen and keyboard'>Exams and Stress</header>
+            <li><a href="index.html" style='background-color:rgb(255, 204, 204)'>Home</a></li>
+                <li><a href="GS.html">Goal Setting</a></li>
+                <li><a href="ES.html">Exams and Stress</a></li>
+                <li><a href="TM.html">Time Management</a></li>
+              </ul>
+        </nav>
+     <header class='headerES' alt='Notebook, pen and keyboard'>Exams and Stress</header>
      <div class='EScontent'>
   <br>  <div class='stresstestkey2'><h1><mark>Stress Less</mark></h1>
   <p>Stress is a natural physiological response required to help you deal with challenging situations. Good amounts of stress can enhance your performance, particularly during exams. Extended periods of stress are not so good for you. Learning how to cope with different level of stress is an important way to look after your wellbeing. </p>
@@ -45,6 +40,8 @@
         <li class='esli'>Set <strong>SMART</strong> goals</li>
         <li class='esli'><strong>Avoid overload</strong> by learning to say "no".</li>
         <li class='esli'><strong>Be realistic</strong> about what you expect from yourself.</li>
+      </ul>
+      <iframe class='video' width="560" height="270" src="https://www.youtube.com/embed/I6402QJp52M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <br>
       <header class='midheader' alt='Pretty Study Space'></header>
@@ -58,8 +55,10 @@
         <p><strong>4</strong> = usually</p>
         <p><strong>5</strong> = always</p>
         <p><strong>Example: </strong>If you <strong>never</strong> try to do as much as possible in the least amount of time, your rating for Statement 1 would be 1 = never.</p>
+        <button onclick="quizFunction()" class='quizbutton'>Take the Test</button>
       </div>
       <br>
+      <div id="quiz" style='display:none' class='quiz'>
       <table>
       <tr>
         <th style='background-color:rgb(255, 232, 232)'>Statement</th>
@@ -329,21 +328,22 @@
     </label></td>
       </tr>
       <tr>
-        <td class='submit'>Submit</td>
-        <td style='background-color:rgb(255, 232, 232)'><button id='submit' class='submit' onclick="tabulateAnswers()">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>></button></td>
+        <td class='submit'></td>
+        <td style='background-color:rgb(255, 232, 232)'><button id='submit' class='submitbutton' onclick="tabulateAnswers()">Submit</button></td>
       </tr>
       </table>
     <br>
-    <div class='stresstestkey'>
+    <div class='stresstestkey3'>
     <div id='result' class='result'>Result:</div>
         <div id='answer' class='answerbox'></div>
         <script src='../js/ES.js'></script>
         </div>
+      </div>
         <br><header class='lastheader' alt='Notebooks and pens'></header>
       <br>  <div class='stresstestkey2'><h1><mark>Relaxation</mark></h1>
         <p>Being a student can be tough. From falling out with friends to falling behind with homework or getting in trouble at home for staying out too late. The more that happens, the harder it is to concentrate, so sometimes the best thing to do is to take a step back and relax.</p>
     </div>
-    <br><div class='stresstestkey'><h2>Our top 5 tips to relax</h2>
+    <br><div class='stresstestkey'><h2>Our top 5 tips to relax</h2><p>Click for more info!</p>
       <button onclick="havefunFunction()" class='relaxationbutton'>1. Have Fun</button>
 
 <div id="havefun" style='display:none' class='relaxationtext'>
@@ -373,6 +373,6 @@ Sitting quietly for ten minutes a may to meditate can work wonders to help you r
 </div>
 </div>
 <br>
-<div class='footer'>Student Health and Wellness | ©2020</div>
+<div class='footer'>Student Health and Wellness | Page by Sienna</div>
   </body>
 </html>

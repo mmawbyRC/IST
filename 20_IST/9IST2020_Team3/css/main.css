@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Balsamiq+Sans);
 @import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC);
-@import url(https://fonts.googleapis.com/css?family=Lora+Bold);
+/*@import url(https://fonts.googleapis.com/css?family=Lora+Bold);*/
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC);
 h1 {
   font-family:"Amatic SC";
@@ -25,4 +25,133 @@ li {
 }
 strong {
   color:rgb(255, 165, 0);
+}
+/*This is the header setting for all the pages
+Each page should have a class for the header with
+a backround-image attribute to specify what image to shadow*/
+header {
+    padding: 240px;
+    text-align: center;
+    background: #ebebeb;
+    color: black;
+    font-size: 60px;
+    font-family:"Amatic SC";
+    background-size:cover;
+    background-attachment:fixed;
+  }
+.headerindex {
+  background-image: url('../images/LAPTOP.jpeg');
+}
+.contentbox1 {
+  display:inline-block;
+  margin:40px;
+  background-image: url('../images/goalsetting.jpg');
+  background-size: cover;
+  width:25%;
+  border: 3px solid rgb(255, 204, 204);
+}
+.contentbox1:hover {
+  border: 3px solid lightpink;
+
+}
+.contentbox2 {
+  display:inline-block;
+  margin:40px;
+  background-image: url('../images/img2.jpg');
+  background-size: cover;
+  width:25%;
+  border: 3px solid rgb(255, 204, 204);
+}
+.contentbox2:hover {
+  border: 3px solid lightpink;
+}
+.contentbox3 {
+  display:inline-block;
+  margin:40px;
+  background-image: url('../images/desk.jpg');
+  background-size: cover;
+  width:25%;
+  border: 3px solid rgb(255, 204, 204);
+}
+.contentbox3:hover {
+  border: 3px solid lightpink;
+}
+section {
+  margin-left:15%;
+  margin-right:15%;
+}
+.cbtext {
+  text-decoration: none;
+  background-color: white;
+  padding:10px;
+  margin-top:200px;
+  text-align:center;
+  border: 3px solid lightgrey;
+}
+.footer {
+  padding:30px;
+  font-family:"Balsamiq Sans";
+  text-align:left;
+  width:100%;
+  color:black;
+  background-color:rgb(255, 232, 232);
+  font-size:16px;
+}
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
 }

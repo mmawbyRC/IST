@@ -11,6 +11,8 @@
 }
 .esul {
   background-color:transparent;
+  display: inline-block;
+  vertical-align:top;
 }
 h1 {
   font-family:"Amatic SC";
@@ -62,16 +64,8 @@ mark {
   background-color:gray;
   border-bottom: 2px solid grey;
 }
-header {
-  padding: 240px;
-  text-align: center;
-  background: #ebebeb;
-  color: black;
-  font-size: 60px;
-  font-family:"Amatic SC";
-  background-image:url('../images/img2.jpg');
-  background-size:cover;
-  background-attachment:fixed;
+.headerES {
+    background-image:url('../images/img2.jpg');
 }
 .EScontent {
   margin-left:100px;
@@ -83,6 +77,13 @@ header {
 .stresstestkey {
   background-color:rgba(227,227,228, 0.3);
   padding:10px;
+  border: 3px dashed #ebebeb;
+
+}
+.stresstestkey3 {
+  background-color:rgba(227,227,228, 0.3);
+  padding:10px;
+  border: 3px dashed #ebebeb;
 }
 .stresstestkey2 {
   background-color:#fdfd96;
@@ -98,12 +99,22 @@ header {
   background-size:cover;
   background-attachment:fixed;
 }
-.submit {
+.submitbutton {
   color:black;
-  background-color:rgb(255, 232, 232);
+  background-color:snow;
   font-family:"Balsamiq Sans";
   width:100%;
   text-align:middle;
+  font-size:16px;
+  border-color:darkgrey;
+  border-radius: 0;
+  border: 2px solid grey;
+}
+.submitbutton:hover{
+  background-color:#ebebeb;
+}
+.submit {
+  background-color:rgb(255, 232, 232);
 }
 .shadedrow {
   background-color:snow;
@@ -123,7 +134,6 @@ header {
   font-family:"Balsamiq Sans";
   text-align:left;
   width:100%;
-  color:rgb(255, 165, 0);
   color:black;
   font-size:16px;
   border-radius:0px;
@@ -131,6 +141,9 @@ header {
   background-color:white;
   border:0px;
   border-bottom: 2px solid grey;
+}
+.relaxationbutton:hover {
+  background-color:#ebebeb;
 }
 .relaxationtext {
   padding:20px;
@@ -156,9 +169,21 @@ header {
   padding:10px;
 }
 .result {
-  color:rgb(255, 165, 0);
+  color:black;
   Font-size:20px;
   border-bottom: 2px solid grey;
   padding:10px;
   font-family:"Balsamiq Sans";
+}
+.video {
+  margin-left:90px;
+  border: 10px double rgba(255, 165, 0, 0.5);
+}
+.quizbutton {
+  font-size:18px;
+  font-family:"Balsamiq Sans";
+  border: 2px double grey;
+}
+.quizbutton:hover{
+  background-color:#ebebeb;
 }

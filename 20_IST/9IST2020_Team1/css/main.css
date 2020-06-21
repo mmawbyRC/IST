@@ -29,10 +29,30 @@ h3, p, a, ul{
 span:hover {
   text-decoration: underline;
 }
+
 body {
   background-color: rgb(240, 211, 221);
 }
 
+.body {
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(255,255,255);
+  width: 80%;
+}
+
+.topbits{
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+.uniformButton {
+  color: rgb(32, 55, 96);
+  display: inline-block;
+  padding: 0px;
+}
+
+}
 /* Lists */
 
 .comp, .opti, .pe{
@@ -56,7 +76,7 @@ header {
 
 img {
   float: right;
-  width: 480px;
+  width: 490px;
   overflow: auto;
   border-radius: 5px;
   padding: 20px;
@@ -80,7 +100,7 @@ ul {
 footer {
   background-color: rgb(59, 114, 170);
   color: white;
-  margin-top: 250px;
+  margin-top: 50px;
 }
 footer > p {
   display: inline-block;

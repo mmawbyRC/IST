@@ -1,0 +1,130 @@
+* { box-sizing: border-box; }
+
+.titles {
+  font-family:"Amatic SC";
+  text-align:center;
+  font-size:45px;
+  padding-top:16px;
+}
+
+header {
+  padding: 240px;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Amatic SC";
+}
+
+.headerTM {
+  background-image: url('../images/desk.jpg');
+  color: white;
+}
+
+.timemanagekey {
+  background-color:rgba(227,227,228, 0.3);
+  padding:10px;
+  border: 3px dashed #ebebeb;
+}
+
+.TMcontent {
+  margin-left:100px;
+  margin-right:100px;
+}
+
+.timemanagekey2 {
+  background-color:#fdfd96;
+  padding:2px;
+}
+
+.esul {
+  background-color:transparent;
+  display: inline-block;
+  vertical-align:top;
+}
+
+.esli {
+  list-style-type: circle;
+  background-color:transparent;
+  padding: 0;
+  display:circle;
+  list-style: circle;
+  list-style-position: inside;
+  margin-left:12px;
+}
+
+.jugglebutton {
+  padding:5px;
+  font-family:"Balsamiq Sans";
+  text-align:left;
+  width:100%;
+  color:black;
+  font-size:16px;
+  border-radius:0px;
+  box-shadow:none;
+  background-color:white;
+  border:0px;
+  border-bottom: 2px solid grey;
+}
+
+.jugglebutton:hover {
+  background-color:white;
+}
+
+.juggletext {
+  padding:20px;
+  font-family:"Balsamiq Sans";
+  text-align:left;
+  width:100%;
+  color:black;
+  font-size:16px;
+}
+
+.footer {
+  padding:30px;
+  font-family:"Balsamiq Sans";
+  text-align:left;
+  width:100%;
+  color:black;
+  background-color:rgb(255, 232, 232);
+  font-size:16px;
+}
+
+mark {
+    background-color:#fdfd96;
+}
+
+button {
+  background-color:white;
+  font-family:"Balsamiq Sans";
+  border-radius: 4px;
+  Font-size:12px;
+  margin:4px;
+}
+select {
+  background-color: #ebebeb;
+  }
+
+.midheader {
+  padding: 150px;
+  text-align: center;
+  background: #ebebeb;
+  color: black;
+  font-family:"Amatic SC";
+  background-image:url('../images/desk2.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+.lastheader {
+  padding: 150px;
+  text-align: center;
+  background: #ebebeb;
+  color: black;
+  font-family:"Amatic SC";
+  background-image:url('../images/globe.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+.fillintext {
+  text-align: center;
+}

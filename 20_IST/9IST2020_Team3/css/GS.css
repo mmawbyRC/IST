@@ -1,0 +1,140 @@
+* { box-sizing: border-box; }
+
+.headerGS{
+ background-image:url('../images/goalsetting.jpg');
+}
+
+span{
+  font-weight: bold;
+  text-decoration: underline;
+  color: red;
+}
+
+.GScontent{
+  margin-left:100px;
+  margin-right:100px;
+}
+
+.titleGS {
+  font-family:"Amatic SC";
+  text-align:center;
+  font-size:45px;
+  padding-top:16px;
+}
+
+.goalkey{
+  background-color:#fdfd96;
+  padding:2px;
+}
+
+
+.goalkey{
+  background-color:rgba(227,227,228, 0.3);
+  padding:10px;
+}
+
+h2{
+  font-family:"Amatic SC";
+  color:black
+}
+
+
+mark {
+  background-color:#fdfd96;
+}
+
+.stresstestkey3 {
+  background-color:rgba(227,227,228, 0.3);
+  padding:10px;
+  border: 3px dashed #ebebeb;
+}
+
+.submitbutton {
+  color:black;
+  background-color:snow;
+  font-family:"Balsamiq Sans";
+  width:100%;
+  text-align:middle;
+  font-size:16px;
+  border-color:darkgrey;
+  border-radius: 0;
+  border: 2px solid grey;
+}
+.submitbutton:hover{
+  background-color:#ebebeb;
+}
+.submit {
+  color:black;
+  background-color:snow;
+  font-family:"Balsamiq Sans";
+  width:10%;
+  text-align:center;
+  font-size:16px;
+  border-color:darkgrey;
+  border-radius: 0;
+  border: 2px solid grey;
+
+}
+
+.checklist{
+  display: flex;
+  justify-content: flex-start;
+}
+
+div > .goalkey1 {
+}
+
+
+input{
+
+}
+
+.midheader {
+  padding: 150px;
+  text-align: center;
+  background: #ebebeb;
+  color: black;
+  font-family:"Amatic SC";
+  background-image:url('../images/goals2020.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+.div2 {
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 1px solid red;
+}
+
+
+
+.lastheader {
+  padding: 150px;
+  text-align: center;
+  background: #ebebeb;
+  color: black;
+  font-family:"Amatic SC";
+  background-image:url('../images/goals2020.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+.fillintext {
+  text-align: center;
+}
+
+.strong{
+  text-decoration: none;
+}
+
+
+.footer {
+  padding:30px;
+  font-family:"Balsamiq Sans";
+  text-align:left;
+  width:100%;
+  color:black;
+  background-color:rgb(255, 232, 232);
+  font-size:16px;
+}

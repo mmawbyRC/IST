@@ -1,4 +1,12 @@
-* { box-sizing: border-box; }
+* { box-sizing: border-box;}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(237, 140, 173);
+}
+
 
 nav > ul {
   background-color: rgb(237, 140, 173);
@@ -7,6 +15,8 @@ nav > ul {
 
 a {
   padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   display: inline-block;
   color: white;
   text-decoration: none;

@@ -115,3 +115,11 @@ var x = document.getElementById("music");
         x.style.display = "none";
         }
       }
+function quizFunction() {
+    var x = document.getElementById("quiz");
+      if (x.style.display === "none") {
+          x.style.display = "block";
+    } else {
+        x.style.display = "none";
+        }
+      }

@@ -1,0 +1,44 @@
+* { box-sizing: border-box;
+  background-repeat: no-repeat;}
+
+.zero {
+  background-image: url('Hangman-0.png');
+}
+.one {
+  background-image: url('Hangman-1.png');
+}
+.two {
+  background-image: url('Hangman-2.png');
+}
+.three {
+  background-image: url('Hangman-3.png');
+}
+.four {
+  background-image: url('Hangman-4.png');
+}
+.five {
+  background-image: url('Hangman-5.png');
+}
+.six {
+  background-image: url('Hangman-6.png');
+}
+body {
+  margin-left: 256px;
+  display: inline-block;
+}
+
+input {
+  width: 20px;
+}
+.guesses {
+  vertical-align: text-top;
+  display: flex;
+}
+.hide {
+  display: none;
+}
+.answers {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}

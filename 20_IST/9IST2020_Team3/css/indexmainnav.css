@@ -37,13 +37,14 @@ nav>ul>li:hover>ul{
   display:block;
 }
 body {
-  background-color:white;
+  background-color:snow;
   }
 .header {
   text-align: center;
   color: black;
   font-size: 30px;
   }
+
   .title {
     font-family:"Amatic SC";
     text-align:center;
