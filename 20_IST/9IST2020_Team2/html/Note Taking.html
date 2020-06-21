@@ -85,7 +85,7 @@
   <li>Doesn’t work for information that can’t easily be categorized</li>
 </ul>
 </div>
-</div> 
+</div>
 <div class="main_container">
    <div class="section1 ">
          <p class="number">04</p>
@@ -127,6 +127,7 @@
     <script>
   function clickAction() {
     choose.textContent = 'Download here';
+    let newText='';
 
     if (scaffold.value == 'Outline') {
       choose.textContent = 'No scaffold available';
@@ -135,10 +136,9 @@
       choose.textContent = 'You must choose a scaffold';
     }
     if (scaffold.value == 'Cornell') {
-      choose.innerHTML =
-      '<p> Download
-      <a href='https://dryuc24b85zbr.cloudfront.net/tes/resources/11679748/image?width=500&height=500&version=1565781987067'>Here:</a>
-      </p>;'
+      newText = '<p> Download </p> ' +
+            '<a href="https://dryuc24b85zbr.cloudfront.net/tes/resources/11679748/image?width=500&height=500&version=1565781987067">here</a>';
+      choose.innerHTML = newText;
     }
     if (scaffold.value == 'Chart') {
       choose.textContent = 'No scaffold available';
