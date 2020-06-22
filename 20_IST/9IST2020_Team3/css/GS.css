@@ -22,13 +22,13 @@ span{
   padding-top:16px;
 }
 
-.goalkey{
+.goalkey1{
   background-color:#fdfd96;
   padding:2px;
 }
 
 
-.goalkey{
+.goalkey3{
   background-color:rgba(227,227,228, 0.3);
   padding:10px;
 }
@@ -43,7 +43,7 @@ mark {
   background-color:#fdfd96;
 }
 
-.stresstestkey3 {
+.goalkey4 {
   background-color:rgba(227,227,228, 0.3);
   padding:10px;
   border: 3px dashed #ebebeb;
@@ -125,7 +125,7 @@ input{
 }
 
 .strong{
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 
@@ -137,4 +137,9 @@ input{
   color:black;
   background-color:rgb(255, 232, 232);
   font-size:16px;
+}
+
+style{
+
+
 }

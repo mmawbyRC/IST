@@ -26,12 +26,15 @@ h3, p, a, ul{
   text-decoration: none;
 }
 
+
 span:hover {
   text-decoration: underline;
 }
 
 body {
-  background-color: rgb(240, 211, 221);
+  background-image: url('../images/dotties.jpg');
+  background-repeat: repeat;
+  background-size: 250px 250px;
 }
 
 .body {
@@ -52,7 +55,7 @@ body {
   padding: 0px;
 }
 
-}
+
 /* Lists */
 
 .comp, .opti, .pe{

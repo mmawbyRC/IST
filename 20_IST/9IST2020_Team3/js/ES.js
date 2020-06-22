@@ -5,35 +5,7 @@ function tabulateAnswers() {
   let c3score = 0;
   let c4score = 0;
   let c5score = 0;
-/*
-  var choices = document.getElementsByTagName('option');
 
-  for (i=0; i<choices.length; i++) {
-    console.log(i,choices[i].checked);
-
-    if (choices[i].checked) {
-      if (choices[i].value == 'c0') {
-        c0score = c0score + 1;
-      }
-      if (choices[i].value == 'c1') {
-        c1score = c1score + 1;
-      }
-      if (choices[i].value == 'c2') {
-        c2score = c2score + 1;
-      }
-      if (choices[i].value == 'c3') {
-        c3score = c3score + 1;
-      }
-      if (choices[i].value == 'c4') {
-        c4score = c4score + 1;
-      }
-      if (choices[i].value == 'c5') {
-        c5score = c5score + 1;
-      }
-    }
-}
-*/
-//This loop will get all 20 boxes and process selections
     for (q=1; q<21; q++){
       let box = 'box'+ q;
       let question = document.getElementById(box);
@@ -121,5 +93,19 @@ function quizFunction() {
           x.style.display = "block";
     } else {
         x.style.display = "none";
+        }
+      }
+      var modal = document.getElementById("myModal");
+      var btn = document.getElementById("myBtn");
+      var span = document.getElementsByClassName("close")[0];
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
         }
       }

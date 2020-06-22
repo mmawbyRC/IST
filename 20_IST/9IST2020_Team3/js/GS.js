@@ -1,7 +1,4 @@
-
- <script>
-  function clickAction() {
-    response.textContent = answer.value
+function inputAction(){
+  placeholder.textContent = answer.value
   }
-    button.onclick = clickAction;
-    </script>
+  fancify.onclick = inputAction;

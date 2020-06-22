@@ -91,6 +91,7 @@ p {
 	line-height: 32px;
 	color: #2e4052;
 	font-family: Montserrat, sans-serif;
+	padding-bottom: 30px;
 
 }
 .list{
@@ -98,9 +99,19 @@ p {
 	line-height: 32px;
 	color: #2e4052;
 	font-family: Montserrat, sans-serif;
+	display: inline-block;
 
 }
+ol {
+	font-size: 24px;
+	letter-spacing: 0;
+	line-height: 51px;
+	margin-bottom: 6px;
+	color: #2e4052;
+	font-family: 'Bebas Neue', cursive
+}
 
+}
 main {
 	width: 100%;
 	margin-bottom: 250px;
@@ -214,4 +225,15 @@ tr:hover td {
 	border-top: 1.5px solid #ed9978;
 	border-bottom: 1.5px solid #ed9978;
 
+}
+.desk {
+	width: 450px;
+	height:300px;
+	display: inline-block;
+}
+#hidediv2 {
+	display: inline-block;
+}
+#hidediv {
+	display: inline-block;
 }

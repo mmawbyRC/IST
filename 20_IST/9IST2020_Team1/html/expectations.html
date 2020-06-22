@@ -34,6 +34,7 @@
         </ul>
       </nav>
     </header>
+    <section class="body">
     <h2>Study Calculator</h2>
     <section>
     <p>Use the calculator below to see if you are doing the required amount of work for your year.</p>
@@ -59,6 +60,7 @@
         </select>
     <p id="result">Please select a year.</p>
   </section>
+</section>
   <footer>
     <p>A Guide to Roseville College</p>
     <p>©A Team Of People LLC (Page by Amelie)</p>
@@ -68,102 +70,102 @@
         let workdone = parseInt(workInput.value)
         if (yearInput.value == 'y7') {
           if (workdone < 31) {
-            result.textContent = 'You are in Year 7 and you do 0-30 mins of work. This is under the reqired amount for Year 7. The required amount for Year 7 is 1-2 hours.';
+            result.textContent = 'This is under the reqired amount of work for Year 7. The required amount for Year 7 is 1-2 hours. Make sure you are completing all homework and assessment tasks and studying for your tests, as it is important to build study skills for older years. View the "Study Tips" page if you need some ideas on how to study and make the most of your time.';
           } else if (workdone < 61) {
-            result.textContent = 'You are in Year 7 and you do 30-60 mins of work. This is under the reqired amount for Year 7. The required amount for Year 7 is 1-2 hours.';
+            result.textContent = 'This is under the reqired amount of work for Year 7. The required amount for Year 7 is 1-2 hours. Make sure you are completing all homework and assessment tasks and studying for your tests, as it is important to build study skills for older years. View the "Study Tips" page if you need some ideas on how to study and make the most of your time.';
           } else if (workdone < 91) {
-            result.textContent = 'You are in Year 7 and you do 1-2 hours of work. This is within the required amount for Year 7. Good job!';
+            result.textContent = 'This is within the required amount of work for Year 7. Good job! Make sure to keep completing all homework and assessments and following your study routine.';
           } else if (workdone < 151) {
-            result.textContent = 'You are in Year 7 and you do 2-3 hours of work. This is above the reqired amount for Year 7. The required amount for Year 7 is 1-2 hours.';
+            result.textContent = 'This is above the reqired amount of work for Year 7. The required amount for Year 7 is 1-2 hours. Good job, you are definitely on top of your study schedule! If you find that you are getting too stressed with the amount of work you are doing, remember that you can always stick to the 1-2 hour requirement.';
           } else if (workdone < 211) {
-            result.textContent = 'You are in Year 7 and you do 3-5 hours of work. This is above the reqired amount for Year 7. The required amount for Year 7 is 1-2 hours.';
+            result.textContent = 'This is above the reqired amount for Year 7. The required amount for Year 7 is 1-2 hours. Good job for extending yourself, you are very dedicated to your work! If you find that you are getting too stressed with the amount of work you are doing, remember that you can always stick to the 1-2 hour requirement.';
           } else if (workdone < 301) {
-            result.textContent = 'You are in Year 7 and you do 5+ hours of work. This is above the reqired amount for Year 7. The required amount for Year 7 is 1-2 hours.';
+            result.textContent = 'This is well above the reqired amount for Year 7. The required amount for Year 7 is 1-2 hours. You are very organised and dedicated to your work! Remember, this is quite a lot of work to be doing each day in Year 7, so make sure you have time to relax and do other activites as well.';
           } else {
             result.textContent = 'Please select a work value.'
           }
         }
         if (yearInput.value == 'y8') {
           if (workdone < 31) {
-            result.textContent = 'You are in Year 8 and you do 0-30 mins of work. This is under the reqired amount for Year 8. The required amount for Year 8 is 1-2 hours.';
+            result.textContent = 'This is under the reqired amount of work for Year 8. The required amount for Year 8 is 1-2 hours. Make sure you are completing all homework and assessment tasks and studying for your tests, as it is important to build study skills for older years. View the "Study Tips" page if you need some ideas on how to study and make the most of your time.';
           } else if (workdone < 61) {
-            result.textContent = 'You are in Year 8 and you do 30-60 mins of work. This is under the reqired amount for Year 8. The required amount for Year 8 is 1-2 hours.';
+            result.textContent = 'This is under the reqired amount of work for Year 8. The required amount for Year 8 is 1-2 hours. Make sure you are completing all homework and assessment tasks and studying for your tests, as it is important to build study skills for older years. View the "Study Tips" page if you need some ideas on how to study and make the most of your time.';
           } else if (workdone < 91) {
-            result.textContent = 'You are in Year 8 and you do 1-2 hours of work. This is within the required amount for Year 8. Good job!';
+            result.textContent = 'This is within the required amount of work for Year 8. Good job! Make sure to keep completing all homework and assessments and following your study routine.';
           } else if (workdone < 151) {
-            result.textContent = 'You are in Year 8 and you do 2-3 hours of work. This is above the reqired amount for Year 8. The required amount for Year 8 is 1-2 hours.';
+            result.textContent = 'This is above the reqired amount of work for Year 8. The required amount for Year 8 is 1-2 hours. Good job, you are definitely on top of your study schedule! If you find that you are getting too stressed with the amount of work you are doing, remember that you can always stick to the 1-2 hour requirement.';
           } else if (workdone < 211) {
-            result.textContent = 'You are in Year 8 and you do 3-5 hours of work. This is above the reqired amount for Year 8. The required amount for Year 8 is 1-2 hours.';
+            result.textContent = "This is above the reqired amount for Year 8. The required amount for Year 8 is 1-2 hours. Good job for extending yourself, you are very dedicated to your work! If you find that you are getting too stressed with the amount of work you are doing, remember that you can always stick to the 1-2 hour requirement.";
           } else if (workdone < 301) {
-            result.textContent = 'You are in Year 8 and you do 5+ hours of work. This is above the reqired amount for Year 8. The required amount for Year 8 is 1-2 hours.';
+            result.textContent = 'This is well above the reqired amount for Year 8. The required amount for Year 8 is 1-2 hours. You are very organised and dedicated to your work! Remember, this is quite a lot of work to be doing each day in Year 8, so make sure you have time to relax and do other activites as well.';
           } else {
             result.textContent = 'Please select a work value.'
           }
         }
         if (yearInput.value == 'y9') {
           if (workdone < 31) {
-            result.textContent = 'You are in Year 9 and you do 0-30 mins of work. This is under the reqired amount for Year 9. The required amount for Year 9 is 1.5-2.5 hours.';
+            result.textContent = 'This is under the reqired amount of work for Year 9. The required amount for Year 9 is 1.5-2.5 hours. Make sure you are completing all homework and assessment tasks and studying for your tests, as it is important to build study skills for older years. View the "Study Tips" page if you need some ideas on how to study and make the most of your time.';
           } else if (workdone < 61) {
-            result.textContent = 'You are in Year 9 and you do 30-60 mins of work. This is under the reqired amount for Year 9. The required amount for Year 9 is 1.5-2.5 hours.';
+            result.textContent = 'This is under the reqired amount of work for Year 9. The required amount for Year 9 is 1.5-2.5 hours. Make sure you are completing all homework and assessment tasks and studying for your tests, as it is important to build study skills for older years. View the "Study Tips" page if you need some ideas on how to study and make the most of your time.';
           } else if (workdone < 91) {
-            result.textContent = 'You are in Year 9 and you do 1-2 hours of work. This is within the required amount for Year 9. Good job!';
+            result.textContent = 'This is within the required amount of work for Year 9. Good job! Make sure to keep completing all homework and assessments and following your study routine.';
           } else if (workdone < 151) {
-            result.textContent = 'You are in Year 9 and you do 2-3 hours of work. This is within the required amount for Year 9. Good job!';
+            result.textContent = 'This is within the required amount of work for Year 9. Good job! Make sure to keep completing all homework and assessments and following your study routine.';
           } else if (workdone < 211) {
-            result.textContent = 'You are in Year 9 and you do 3-5 hours of work. This is above the reqired amount for Year 9. The required amount for Year 9 is 1.5-2.5 hours.';
+            result.textContent = 'This is above the reqired amount for Year 9. The required amount for Year 9 is 1.5-2.5 hours. Good job for extending yourself, you are very dedicated to your work! If you find that you are getting too stressed with the amount of work you are doing, remember that you can always stick to the 1.5-2.5 hour requirement.';
           } else if (workdone < 301) {
-            result.textContent = 'You are in Year 9 and you do 5+ hours of work. This is above the reqired amount for Year 9. The required amount for Year 9 is 1.5-2.5 hours.';
+            result.textContent = 'This is well above the reqired amount for Year 9. The required amount for Year 9 is 1.5-2.5 hours. You are very organised and dedicated to your work! Remember, this is quite a lot of work to be doing each day in Year 9, so make sure you have time to relax and do other activites as well.';
           } else {
             result.textContent = 'Please select a work value.'
           }
         }
         if (yearInput.value == 'y10') {
           if (workdone < 31) {
-            result.textContent = 'You are in Year 10 and you do 0-30 mins of work. This is under the reqired amount for Year 10. The required amount for Year 10 is 1.5-2.5 hours.';
+            result.textContent = 'This is under the reqired amount of work for Year 10. The required amount for Year 10 is 1.5-2.5 hours. Make sure you are completing all homework and assessment tasks and studying for your tests, as your tests and assessments will become more serious and strict this year. View the "Study Tips" page if you need some ideas on how to study and make the most of your time.';
           } else if (workdone < 61) {
-            result.textContent = 'You are in Year 10 and you do 30-60 mins of work. This is under the reqired amount for Year 10. The required amount for Year 10 is 1.5-2.5 hours.';
+            result.textContent = 'This is under the reqired amount of work for Year 10. The required amount for Year 10 is 1.5-2.5 hours. Make sure you are completing all homework and assessment tasks and studying for your tests, as your tests and assessments will become more serious and strict this year. View the "Study Tips" page if you need some ideas on how to study and make the most of your time.';
           } else if (workdone < 91) {
-            result.textContent = 'You are in Year 10 and you do 1-2 hours of work. This is within the required amount for Year 10. Good job!';
+            result.textContent = 'This is within the required amount of work for Year 10. Good job! Make sure to keep completing all homework and assessments and following your study routine.';
           } else if (workdone < 151) {
-            result.textContent = 'You are in Year 10 and you do 2-3 hours of work. This is within the required amount for Year 10. Good job!';
+            result.textContent = 'This is within the required amount of work for Year 10. Good job! Make sure to keep completing all homework and assessments and following your study routine.';
           } else if (workdone < 211) {
-            result.textContent = 'You are in Year 10 and you do 3-5 hours of work. This is above the reqired amount for Year 10. The required amount for Year 10 is 1.5-2.5 hours.';
+            result.textContent = 'This is above the reqired amount for Year 10. The required amount for Year 10 is 1.5-2.5 hours. Good job for extending yourself, you are very dedicated to your work! If you find that you are getting too stressed with the amount of work you are doing, remember that you can always stick to the 1.5-2.5 hour requirement.';
           } else if (workdone < 301) {
-            result.textContent = 'You are in Year 10 and you do 5+ hours of work. This is above the reqired amount for Year 10. The required amount for Year 10 is 1.5-2.5 hours.';
+            result.textContent = 'This is well above the reqired amount for Year 10. The required amount for Year 10 is 1.5-2.5 hours. You are very organised and dedicated to your work! Remember, this is quite a lot of work to be doing each day in Year 10, so make sure you have time to relax and do other activites as well.';
           } else {
             result.textContent = 'Please select a work value.'
           }
         }
         if (yearInput.value == 'y11') {
           if (workdone < 31) {
-            result.textContent = 'You are in Year 11 and you do 0-30 mins of work. Homework varies for the senior years, depending on the number of courses they are studing. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'Homework varies for the senior years, depending on the number of courses you are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years. View the "Study Tips" page if you need some ideas on how to study and make the most of your time.';
           } else if (workdone < 61) {
-            result.textContent = 'You are in Year 11 and you do 30-60 mins of work. Homework varies for the senior years, depending on the number of courses they are studing. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'Homework varies for the senior years, depending on the number of courses you are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years. View the "Study Tips" page if you need some ideas on how to study and make the most of your time.';
           } else if (workdone < 91) {
-            result.textContent = 'You are in Year 11 and you do 1-2 hours of work. Homework varies for the senior years, depending on the number of courses they are studing. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'You are in Year 11 and you do 1-2 hours of work. Homework varies for the senior years, depending on the number of courses they are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
           } else if (workdone < 151) {
-            result.textContent = 'You are in Year 11 and you do 2-3 hours of work. Homework varies for the senior years, depending on the number of courses they are studing. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'You are in Year 11 and you do 2-3 hours of work. Homework varies for the senior years, depending on the number of courses they are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
           } else if (workdone < 211) {
-            result.textContent = 'You are in Year 11 and you do 3-5 hours of work. Homework varies for the senior years, depending on the number of courses they are studing. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'You are in Year 11 and you do 3-5 hours of work. Homework varies for the senior years, depending on the number of courses they are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
           } else if (workdone < 301) {
-            result.textContent = 'You are in Year 11 and you do 5+ hours of work. Homework varies for the senior years, depending on the number of courses they are studing. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'You are in Year 11 and you do 5+ hours of work. Homework varies for the senior years, depending on the number of courses they are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
           } else {
             result.textContent = 'Please select a work value.'
           }
         }
         if (yearInput.value == 'y12') {
           if (workdone < 31) {
-            result.textContent = 'You are in Year 12 and you do 0-30 mins of work. Homework varies for the senior years, depending on the number of courses they are studing. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'You are in Year 12 and you do 0-30 mins of work. Homework varies for the senior years, depending on the number of courses they are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
           } else if (workdone < 61) {
-            result.textContent = 'You are in Year 12 and you do 30-60 mins of work. Homework varies for the senior years, depending on the number of courses they are studing. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'You are in Year 12 and you do 30-60 mins of work. Homework varies for the senior years, depending on the number of courses they are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
           } else if (workdone < 91) {
-            result.textContent = 'You are in Year 12 and you do 1-2 hours of work. Homework varies for the senior years, depending on the number of courses they are studing. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'You are in Year 12 and you do 1-2 hours of work. Homework varies for the senior years, depending on the number of courses they are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
           } else if (workdone < 151) {
-            result.textContent = 'You are in Year 12 and you do 2-3 hours of work. Homework varies for the senior years, depending on the number of courses they are studing. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'You are in Year 12 and you do 2-3 hours of work. Homework varies for the senior years, depending on the number of courses they are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
           } else if (workdone < 211) {
-            result.textContent = 'You are in Year 12 and you do 3-5 hours of work. Homework varies for the senior years, depending on the number of courses they are studing. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'You are in Year 12 and you do 3-5 hours of work. Homework varies for the senior years, depending on the number of courses they are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
           } else if (workdone < 301) {
-            result.textContent = 'You are in Year 12 and you do 5+ hours of work. Homework varies for the senior years, depending on the number of courses they are studing. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'You are in Year 12 and you do 5+ hours of work. Homework varies for the senior years, depending on the number of courses they are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
           } else {
             result.textContent = 'Please select a work value.'
           }

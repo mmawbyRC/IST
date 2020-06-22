@@ -11,7 +11,7 @@
           <ul>
             <li><a href="index.html" style='background-color:rgb(255, 204, 204)'>Home</a></li>
                 <li><a href="GS.html">Goal Setting</a></li>
-                <li><a href="ES.html">Exams and Stress</a></li>
+                <li><a href="ES.html" style='border:2px dashed rgb(255, 204, 204)'>Exams and Stress</a></li>
                 <li><a href="TM.html">Time Management</a></li>
               </ul>
         </nav>
@@ -55,10 +55,14 @@
         <p><strong>4</strong> = usually</p>
         <p><strong>5</strong> = always</p>
         <p><strong>Example: </strong>If you <strong>never</strong> try to do as much as possible in the least amount of time, your rating for Statement 1 would be 1 = never.</p>
-        <button onclick="quizFunction()" class='quizbutton'>Take the Test</button>
-      </div>
+        <button id="myBtn" onclick="quizFunction()" class='quizbutton'>Take the Test</button>
+        </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2 class='lightboxtitle'>STRESS TEST</h2>
       <br>
-      <div id="quiz" style='display:none' class='quiz'>
+      <div id="quiz" class='quiz'>
       <table>
       <tr>
         <th style='background-color:rgb(255, 232, 232)'>Statement</th>
@@ -339,6 +343,8 @@
         <script src='../js/ES.js'></script>
         </div>
       </div>
+    </div>
+  </div>
         <br><header class='lastheader' alt='Notebooks and pens'></header>
       <br>  <div class='stresstestkey2'><h1><mark>Relaxation</mark></h1>
         <p>Being a student can be tough. From falling out with friends to falling behind with homework or getting in trouble at home for staying out too late. The more that happens, the harder it is to concentrate, so sometimes the best thing to do is to take a step back and relax.</p>
