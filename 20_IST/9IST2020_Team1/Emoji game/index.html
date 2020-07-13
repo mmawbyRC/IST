@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+  <title>
+    go do your homework
+  </title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+  <link href="main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="instructions">
+  <h1>Emoji Guessing Game</h1>
+  <p>Use the emojis to guess the word/phrase (type in lowercase).</p>
+  <button id="start" style="margin-left: 650px; margin-top: 20px;">Start</button>
+  </div>
+<div id="roundOne" class="hidden">
+  <h1>Round One</h1>
+  <h2>😢 👶</h2>
+  <input id="oneInput" type="text" style="margin-left: 590px;">
+  <button id="oneButton">Guess</button>
+  </div>
+<div id='correctOne' class='hidden'>
+  <h1 style="color: green;">Correct!</h1>
+  <button id="to2" style="width: 200px; margin-left: 610px;">Next Round</button>
+  </div>
+<div id="roundTwo" class="hidden">
+  <h1>Round Two</h1>
+  <h2>🌨 👱</h2>
+  <input id="twoInput" type="text" style="margin-left: 590px;">
+  <button id="twoButton">Guess</button>
+  </div>
+ <div id='correctTwo' class='hidden'>
+   <h1 style="color: green;">Correct!</h1>
+   <button id="to3" style="width: 200px; margin-left: 610px;">Next Round</button>
+  </div>
+<div id='roundThree' class='hidden'>
+  <h1>Round Three</h1>
+  <h2>🥇 👯</h2>
+  <input id="threeInput" type='text' style="margin-left: 590px;">
+  <button id="threeButton">Guess</button>
+  </div>
+<div id='correctThree' class='hidden'>
+  <h1 style="color: green;">Correct!</h1>
+  <button id="to4" style="width: 200px; margin-left: 610px;">Next Round</button>
+  </div>
+<div id='roundFour' class='hidden'>
+  <h1>Round Four</h1>
+  <h2>🔍 🐠</h2>
+  <input id='fourInput' type='text' style='margin-left: 590px;'>
+  <button id='fourButton'>Guess</button>
+  </div>
+<div id='correctFour' class='hidden'>
+  <h1 style='color: green;'>Correct!</h1>
+  <button id='to5' style='width: 200px; margin-left: 610px;'>Next Round</button>
+  </div>
+<div id='roundFive' class='hidden'>
+  <h1>Round Five</h1>
+  <h2>🎶 ⑁</h2>
+  <input id='fiveInput' type='text' style='margin-left: 590px;'>
+  <button id='fiveButton'>Guess</button>
+  </div>
+<div id='correctFive' class='hidden'>
+  <h1 style='color: green;'>Correct!</h1>
+  <button id='end' style='width: 200px; margin-left: 610px;'>Finish</button>
+  </div>
+<div id="congrats" class='hidden'>
+  <h1>Congratulations!</h1>
+  <p>You have completed the game!</p>
+  </div>
+<div id='wrong' class="hidden">
+  <h1 style="color: red;">Incorrect!</h1>
+  <button id="tryagain" style="margin-left: 660px;">Try Again</button>
+  </div>
+  <script src="script.js"></script>
+</body>

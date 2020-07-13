@@ -5,7 +5,7 @@
   <title>Study Expectations</title>
   </head>
   <body>
-    <header>
+    <header class="topbits">
       <h1>Study Expectations</h1>
       <nav>
         <ul>
@@ -59,11 +59,18 @@
           <option value="300">5+ hours</option>
         </select>
     <p id="result">Please select a year.</p>
+    <div id="hunt3" class="hidden">
+    <p>Good job, You are so close. Just a few more.</p>
+    <p>Here is Amelie's game:<a href='../Emoji game/index.html' target='_blank'><button>Emoji Guessing</button></a></p>
+    <p>Next clue: Games  must have a good title and be played when its cold outside.</p>
+</div>
   </section>
 </section>
   <footer>
     <p>A Guide to Roseville College</p>
-    <p>©A Team Of People LLC (Page by Amelie)</p>
+    <p>©A Team Of People</p>
+    <a href="../Emoji game/index.html">Page by Amelie</a>
+
   </footer>
     <script>
       function update() {
@@ -142,30 +149,30 @@
           } else if (workdone < 61) {
             result.textContent = 'Homework varies for the senior years, depending on the number of courses you are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years. View the "Study Tips" page if you need some ideas on how to study and make the most of your time.';
           } else if (workdone < 91) {
-            result.textContent = 'You are in Year 11 and you do 1-2 hours of work. Homework varies for the senior years, depending on the number of courses they are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'Homework varies for the senior years, depending on the number of courses you are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years. View the "Study Tips" page if you need some ideas on how to study and make the most of your time.';
           } else if (workdone < 151) {
-            result.textContent = 'You are in Year 11 and you do 2-3 hours of work. Homework varies for the senior years, depending on the number of courses they are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'Homework varies for the senior years, depending on the number of courses you are studying. You should spend several hours doing homework and revising work. You seem to be on top of your study schedule, but if you need any help you can view the "Study Tips" page for ideas on how to study and make the most of your time.';
           } else if (workdone < 211) {
-            result.textContent = 'You are in Year 11 and you do 3-5 hours of work. Homework varies for the senior years, depending on the number of courses they are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'Homework varies for the senior years, depending on the number of courses you are studying. You should spend several hours doing homework and revising work. You seem to be on top of your study schedule, but if you need any help you can view the "Study Tips" page for ideas on how to study and make the most of your time.';
           } else if (workdone < 301) {
-            result.textContent = 'You are in Year 11 and you do 5+ hours of work. Homework varies for the senior years, depending on the number of courses they are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'Homework varies for the senior years, depending on the number of courses you are studying. You should spend several hours doing homework and revising work. You seem to be on top of your study schedule, but if you need any help you can view the "Study Tips" page for ideas on how to study and make the most of your time.';
           } else {
             result.textContent = 'Please select a work value.'
           }
         }
         if (yearInput.value == 'y12') {
           if (workdone < 31) {
-            result.textContent = 'You are in Year 12 and you do 0-30 mins of work. Homework varies for the senior years, depending on the number of courses they are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'Homework varies for the senior years, depending on the number of courses you are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years. View the "Study Tips" page if you need some ideas on how to study and make the most of your time.';
           } else if (workdone < 61) {
-            result.textContent = 'You are in Year 12 and you do 30-60 mins of work. Homework varies for the senior years, depending on the number of courses they are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'Homework varies for the senior years, depending on the number of courses you are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years. View the "Study Tips" page if you need some ideas on how to study and make the most of your time.';
           } else if (workdone < 91) {
-            result.textContent = 'You are in Year 12 and you do 1-2 hours of work. Homework varies for the senior years, depending on the number of courses they are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'Homework varies for the senior years, depending on the number of courses you are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years. View the "Study Tips" page if you need some ideas on how to study and make the most of your time.';
           } else if (workdone < 151) {
-            result.textContent = 'You are in Year 12 and you do 2-3 hours of work. Homework varies for the senior years, depending on the number of courses they are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'Homework varies for the senior years, depending on the number of courses you are studying. You should spend several hours doing homework and revising work. You seem to be on top of your study schedule, but if you need any help you can view the "Study Tips" page for ideas on how to study and make the most of your time.';
           } else if (workdone < 211) {
-            result.textContent = 'You are in Year 12 and you do 3-5 hours of work. Homework varies for the senior years, depending on the number of courses they are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'Homework varies for the senior years, depending on the number of courses you are studying. You should spend several hours doing homework and revising work. You seem to be on top of your study schedule, but if you need any help you can view the "Study Tips" page for ideas on how to study and make the most of your time.';
           } else if (workdone < 301) {
-            result.textContent = 'You are in Year 12 and you do 5+ hours of work. Homework varies for the senior years, depending on the number of courses they are studying. You should spend several hours doing homework and revising work. It is very important that homework is done on time in these years.';
+            result.textContent = 'Homework varies for the senior years, depending on the number of courses you are studying. You should spend several hours doing homework and revising work. You seem to be on top of your study schedule, but if you need any help you can view the "Study Tips" page for ideas on how to study and make the most of your time.';
           } else {
             result.textContent = 'Please select a work value.'
           }
@@ -173,5 +180,6 @@
       }
       yearSelector.onchange = update;
     </script>
+    <script src="../js/scavenger hunt 3.js"></script>
     </body>
     </html>

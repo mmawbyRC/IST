@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Work+Sans&display=swap');
+.hide {
+  display: none;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  margin: 2em;
+  zoom: 130%;
+}
+h1 {
+  font-family: 'Concert One', cursive;
+  font-size: 60px;
+  margin-left: 7em;
+}
+input {
+  width: 10px;
+}

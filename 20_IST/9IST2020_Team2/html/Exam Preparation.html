@@ -3,134 +3,220 @@
    <head>
       <title>Exam Preparation</title>
       <link href="../css/ExamPreparation.css" rel="stylesheet">
+      <script src="../js/ExamPreparation.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    </head>
    <body>
-     <div class='head1'>
-     <div class="navbar">
-       <a href="HomePage.html">Home</a>
-       <a href="Note Taking.html">Note Taking</a>
-       <a href="Exam Preparation.html">Exam Preparation</a>
-         <a href="Time Management.html">Time Management</a>
-       </div>
-
-      <div class="header__container">
-         <h1>Strategies<br>
-            For<br>
-            Exam preparation
-         </h1>
-         <h3 >Exams can be stressful, but being prepared can help manage stress and allow you to perform at your best.There are lots of techniques you can try and resources available to make sure you get the most out of your exam study.</h3>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <div class='head1'>
+         <div class="navbar">
+            <a href="HomePage.html">Home</a>
+            <a href="Note Taking.html">Note Taking</a>
+            <a href="Exam Preparation.html">Exam Preparation</a>
+            <a href="Time Management.html">Time Management</a>
+         </div>
+         <div class="header__container">
+            <h1>Strategies<br>
+               For<br>
+               Exam preparation
+            </h1>
+            <h3 >Exams can be stressful, but being prepared can help manage stress and allow you to perform at your best.There are lots of techniques you can try and resources available to make sure you get the most out of your exam study.</h3>
+         </div>
       </div>
-    </div>
       <main>
-            <div class="main_container">
-               <div class="section1 ">
-                     <p class="number">01</p>
-                     <h2>Be prepared</h2>
-                     <p>It is important to start your exam preparation early to give yourself the best chance of retaining the information you need and giving it the meaning that will help you to excel in your exam. Your method of revision should consider the nature of the examination. Find out from your lecturers what the structure of the exam will be and what subject areas will probably be on the exam. </p>
-                   <div id="showdiv">
-                     	<a href="javascript:show()" id="change1"><strong>·Make a study plan &nbsp + </strong></a>
-                     <div id="hidediv" style="display:none">
-                       <p class=list >A great way to start prepare for your exam is to devise a routine. Research suggests that short study blocks with frequent breaks are most effective. Combine this with mixing the subject areas throughout the day to give yourself more variety. Also, set yourself clear daily, weekly and monthly targets.</p>
-                        <video src="../video/exampreparation1.mp4" alt="1" autoplay loop muted>
-                      </div>
-                 </div>
-                 <div id="showdiv2">
-                     <a href="javascript:sho()" id="change2"><strong>·Organise your space &nbsp + </strong></a>
-                   <div id="hidediv2" style="display:none">
+         <div class="main_container">
+            <div class="section1 ">
+               <p class="number">01</p>
+               <h2>Be prepared</h2>
+               <p>It is important to start your exam preparation early to give yourself the best chance of retaining the information you need and giving it the meaning that will help you to excel in your exam. Your method of revision should consider the nature of the examination. Find out from your lecturers what the structure of the exam will be and what subject areas will probably be on the exam. </p>
+               <div id="showdiv">
+                  <a href="javascript:show()" id="change1"><strong>·Make a study plan &nbsp + </strong></a>
+                  <div id="hidediv" style="display:none">
+                     <p class=list >A great way to start prepare for your exam is to devise a routine. Research suggests that short study blocks with frequent breaks are most effective. Combine this with mixing the subject areas throughout the day to give yourself more variety. Also, set yourself clear daily, weekly and monthly targets.</p>
+                     <video src="../video/exampreparation1.mp4" alt="1" autoplay loop muted >
+                  </div>
+               </div>
+               <div id="showdiv2">
+                  <a href="javascript:sho()" id="change2"><strong>·Organise your space &nbsp + </strong></a>
+                  <div id="hidediv2" style="display:none">
                      <p class=list >Tidy your desk and clear your mind so that you can work comfortably and without distractions. Brace yourself for the task ahead and be confident about achieving your goal.</p>
-                      <img src='../images/desk.jpeg' alt='desk' class='desk' align:'right'>
-                    </div>
+                  </div>
                </div>
-
-
+            </div>
+            <div class="section1 ">
+               <p class="number">02</p>
+               <h2>Regular revision </h2>
+               <p class=list >Effective revision enables you to get material from your short term memory into your long term memory. Long term memory is like a library – information that is placed in it in a systematic way is more likely to be retrievable. Below are some tips to help you revise. </p>
+               <table class="table-fill">
+                  <tbody class="table-hover">
+                     <tr>
+                        <td class="text-left">Use past exam papers to direct your study and take notes</td>
+                        <td class="text-left">This will give you an idea of the sorts of questions and overall structure of the exam. A good strategy is to practice writing responses to past exam questions throughout the semester and do it under exam conditions</td>
+                     </tr>
+                     <tr>
+                        <td class="text-left">Revise actively</td>
+                        <td class="text-left">
+                           Don’t fall into the trap of spending 99% of your study time mindlessly writing out notes and 1% of your time actually looking at them. The more ‘active’ you are in writing notes, the better you will be able to remember them. This may involve reconstructing your notes in a different format, such as:
+                           <li><strong>Written summaries for each topic</strong> - Numbering each point can help with recall in the exam.</li>
+                           <li><strong>Diagrams.</strong> During the exam, it is easier to recall information which has been represented diagrammatically. Colours are particularly helpful to stimulate the memory.</li>
+                           Check out this great independent mind mapping resource.
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="text-left">Reduce anxiety and stay motivated</td>
+                        <td class="text-left">
+                           Although a small amount of stress before exams may aid your performance, too much anxiety will negatively affect your exam performance.
+                           There are several strategies you can try to reduce your anxiety before and during exams:
+                           <li><strong>Start early</strong> and stay on track with your exam preparation to reduce your stress</li>
+                           levels.
+                           <li><strong>Look after your health</strong>. Get plenty of sleep, eat healthy food and try to find time to exercise. Many people find that yoga and breathing exercises can help keep them in tune both physically and mentally.</li>
+                           <li><strong>Keep things in perspective</strong>. Although it may seem at the time that the next exam will be the most important event in your entire life, this is probably not really the case and thinking like this only puts more pressure on yourself.
+                              Take a break. Notice when you are tired or losing concentration.
+                           </li>
+                           <li><strong>Set rewards for yourself.</strong> Rewards for good progress can assist with motivation. Try setting yourself a goal and rewarding yourself when you achieve it. A reward can be as simple as a cup of tea or your favourite TV programm</li>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+            <div class="section1 ">
+               <p class="number">03</p>
+               <h2>Dealing with specific types of exam questions</h2>
+               <ol>
+                  <li>Multiple choice </li>
+                  <p> Multiple choice will require you not only to have a thorough knowledge of the subject, but also to be able to integrate information and to discriminate between similar answers.</p>
+                  <li>Short answer and essay question</li>
+                  <p><strong>Your main aim is to provide a clear, logical explanation that can be followed easily by your examiner.</strong><br>
+                  <ul>
+                     <li class='p'>Short answer: summarize the main points in the first sentence. This means that you will have to carefully plan your answer first. Also, if you run out of time your examiner will be able to see where you were heading with your answer.</li>
+                     <li class='p'>Essay: your introduction should outline the main points of your argument. The body of the essay should consist of a logical sequence of these ideas. Have one idea per paragraph and express the main point of the paragraph in the first sentence. The conclusion should provide a summary of your argument.</p></li>
+                  </ul>
+                  <li>Problem-solving questions</li>
+                  <p ><strong>These types of questions are most common in science, mathematics, engineering and accounting.</strong>
+                  <ul>
+                  <li class='p'>Read the question carefully: take note of each part of the question you will have to address.</li>
+                  <li class='p'>Check carefully what data have been given and what have been left out.</li>
+                  <li class='p'>Think about which principles could be applied to the data. List the formulae you will need to answer the question, without placing the given values in them: this will help to avoid unnecessary slips resulting from a faulty transcription of the formulae.</li>
+                  <li class='p'>Decide the order of the steps you will have to take in order to get to the answer.</li>
+                  <li class='p'>Double check your arithmetic, etc. before moving onto the next step. Make sure you haven’t misplaced any decimal points or made an incorrect substitution in the formulae.</li>
+                  <li class='p'>Include all of your calculations in your answer: that way even if the final outcome is incorrect, your examiner will be able to see where the mistake was made and may still award you some marks for your approach to the question.</li>
+                  </p>
+               </ol>
+            </div>
+             <form id=form1 action='createpdf.php' method='post'>
+            <div class="section1 " id=flashcards>
+               <p class="number">04</p>
+               <h2>Flashcard Maker </h2>
+               <div id='stepone' >
+                  <div class='flashcard'>
+                     <div class="form__group field">
+                        <input type="input" class="form__field" placeholder="Title" name="title" id='title' required />
+                        <label for="Title" class="form__label">Title</label>
+                        <h4><strong>Enter a title</strong></h4>
+                     </div>
+                  </div>
+                  <input id="number" type="range" min="1" max="48" step="1" name=numbers>
+                  <label for='numbers'>
+                     <p><strong>Choose the number of card you need (<span id='numbers'>...</span></strong>)</p>
+                  </label>
+                  <button class=button id=finishstep1><span>Next Step </span></button>
                </div>
-
-               <div class="section1 ">
-                     <p class="number">02</p>
-                     <h2>Regular revision </h2>
-                     <p class=list >Effective revision enables you to get material from your short term memory into your long term memory. Long term memory is like a library – information that is placed in it in a systematic way is more likely to be retrievable. Below are some tips to help you revise. </p>
-
-<table class="table-fill">
-<tbody class="table-hover">
-<tr>
-<td class="text-left">Use past exam papers to direct your study and take notes</td>
-<td class="text-left">This will give you an idea of the sorts of questions and overall structure of the exam. A good strategy is to practice writing responses to past exam questions throughout the semester and do it under exam conditions</td>
-</tr>
-<tr>
-<td class="text-left">Revise actively</td>
-<td class="text-left">Don’t fall into the trap of spending 99% of your study time mindlessly writing out notes and 1% of your time actually looking at them. The more ‘active’ you are in writing notes, the better you will be able to remember them. This may involve reconstructing your notes in a different format, such as:
-<li><strong>Written summaries for each topic</strong> - Numbering each point can help with recall in the exam.</li>
-<li><strong>Diagrams.</strong> During the exam, it is easier to recall information which has been represented diagrammatically. Colours are particularly helpful to stimulate the memory.</li>
-Check out this great independent mind mapping resource.
-</td>
-</tr>
-<tr>
-<td class="text-left">Reduce anxiety and stay motivated</td>
-<td class="text-left">Although a small amount of stress before exams may aid your performance, too much anxiety will negatively affect your exam performance.
-
-There are several strategies you can try to reduce your anxiety before and during exams:
-
-<li><strong>Start early</strong> and stay on track with your exam preparation to reduce your stress</li>
-levels.
-<li><strong>Look after your health</strong>. Get plenty of sleep, eat healthy food and try to find time to exercise. Many people find that yoga and breathing exercises can help keep them in tune both physically and mentally.</li>
-<li><strong>Keep things in perspective</strong>. Although it may seem at the time that the next exam will be the most important event in your entire life, this is probably not really the case and thinking like this only puts more pressure on yourself.
-Take a break. Notice when you are tired or losing concentration. </li>
-<li><strong>Set rewards for yourself.</strong> Rewards for good progress can assist with motivation. Try setting yourself a goal and rewarding yourself when you achieve it. A reward can be as simple as a cup of tea or your favourite TV programm</li></td>
-</tr>
-
-</tbody>
-</table>
-</div>
-
-
-                      <div class="section1 ">
-                            <p class="number">03</p>
-                            <h2>Dealing with specific types of exam questions</h2>
-                            <ol>
-
-                            <li>Multiple choice </li>
-                            <p> Multiple choice require you not only to have a thorough knowledge of the subject, but also to be able to integrate information and to discriminate between similar answers.</p>
-                            <li>Short answer and essay question</li>
-                            <p>eee</p>
-                            <li>Problem-solving questions</li>
-
-                      </div>
-                          </div>
-
-
-
+               <div  id="steptwo" class=displaynone>
+                  <h5>  Enter a term: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enter its definition: </h5>
+                  <div id=steptwoinput class=steptwoinput>
+                     <div class="col span_1_of_2 form__group field flashcard">
+                        <input type="input" class="form__field" placeholder="Term" name="Term" id='Term1' required />
+                        <label for="Term" class="form__label">Term</label>
+                     </div>
+                     <div class="col span_1_of_2 form__group field flashcard">
+                        <input type="input" class="form__field" placeholder="Definition" name="Definition" id='Definition1' required />
+                        <label for="Term" class="form__label">Definition</label>
+                     </div>
+                  </div>
+               </div>
+                   <button type="submit" form="form1" value="Submit" class='displaynone button' id='submit'><span>Submit</span></button>
+            </div>
+          </form>
+         </div>
       </main>
-    </body>
-      <script>
+   </body>
+   <script>
+      $(document).ready(function(){
+           var count = 1;
+           $('#finishstep1').click (function(){
+             var x = document.getElementById("number").value
+               while (count < x){
+                   $($('.steptwoinput').first().clone()).appendTo("#steptwo");
+
+
+               count++;
+
+               }
+           });
+           });
+
+   </script>
+   <script>
+      function numberfunction() {
+        numbers.textContent = number.value;
+      }
+
+      number.oninput = numberfunction;
+   </script>
+   <script>
+      function steponeclick(){
+      stepone.classList.add('displaynone');
+      steptwo.classList.remove('displaynone');
+      submit.classList.remove('displaynone');
+
+      }
+      finishstep1.onclick = steponeclick;
+   </script>
+   <script>
       function show(){
-				document.getElementById("hidediv").style.display="block";
-				document.getElementById("change1").innerHTML="·Make a study plan &nbsp -";
-				document.getElementById("change1").href="javascript:hide()";
-			}
-    </script>
-    <script>
+      document.getElementById("hidediv").style.display="block";
+      document.getElementById("change1").innerHTML="·Make a study plan &nbsp -";
+      document.getElementById("change1").href="javascript:hide()";
+      }
+   </script>
+   <script>
       function hide(){
       				document.getElementById("hidediv").style.display="none";
       				document.getElementById("change1").innerHTML="·Make a study plan &nbsp +";
       				document.getElementById("change1").href="javascript:show()";
       			}
-        </script>
-        <script>
-        function sho(){
-  				document.getElementById("hidediv2").style.display="block";
-  				document.getElementById("change2").innerHTML="·Organise your space &nbsp -";
-  				document.getElementById("change2").href="javascript:hid()";
-  			}
-      </script>
-      <script>
-        function hid(){
-        				document.getElementById("hidediv2").style.display="none";
-        				document.getElementById("change2").innerHTML="·Organise your space &nbsp +";
-        				document.getElementById("change2").href="javascript:sho()";
-        			}
-          </script>
 
-     </body>
+   </script>
+   <script>
+      function sho(){
+      document.getElementById("hidediv2").style.display="block";
+      document.getElementById("change2").innerHTML="·Organise your space &nbsp -";
+      document.getElementById("change2").href="javascript:hid()";
+      }
+   </script>
+   <script>
+      function hid(){
+      				document.getElementById("hidediv2").style.display="none";
+      				document.getElementById("change2").innerHTML="·Organise your space &nbsp +";
+      				document.getElementById("change2").href="javascript:sho()";
+      			}
 
+   </script>
+   <script>
+      mybutton = document.getElementById("myBtn");
 
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+      } else {
+      mybutton.style.display = "none";
+      }
+      }
+      function topFunction() {
+      document.documentElement.scrollTop = 0;
+      }
+   </script>
+   </body>
 </html>

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+* { box-sizing: border-box; }
+
+body {
+  text-align: center;
+  background-color: rgb(207, 207, 207);
+}
+
+h1 {
+  font-family: "Rokkitt", monospace;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+}
+
+img {
+  height: 15%;
+  width: 15%;
+}
+
+p {
+  font-size: 24px;
+  display: inline-block;
+  font-family: "Oswald", sans-serif;
+}
+
+button {
+  display: inline;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.show_block {
+  display: block;
+}
+
+.show_inlineblock {
+  display: inline-block;
+}
+
+.correct {
+  background-color: green;
+}
+
+.close {
+  background-color: orange;
+}
+
+.wrong {
+  background-color: red;
+}
+
+.check {
+  text-align: center;
+}

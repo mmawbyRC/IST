@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="../css/nav.css">
   <title>Behaviour at School</title>
   </head>
-  <header>
+  <header class="topbits">
     <h1>Behaviour at School</h1>
     <nav>
       <ul>
@@ -46,7 +46,8 @@
     <h2>Behaviour towards the campus</h2>
     <p>Girls are not to litter anywhere in the school and chewing gum is prohibited. Girls are also discouraged from graffiting the desks.</p>
     <p>When in the upper levels of the school, girls are to not throw things off the balcony. Girls are also to keep all their belongings with them. At the end of each term lockers are to be cleaned out of food and books.</p>
-    <h2>Quiz</h2>
+<section>
+    <h2 id='hunt2'>Quiz</h2>
     <p>Take this quiz to see if you are a respectful student.</p>
     <p>If a student you don't like is approaching you, a good thing to do is insult them.</p>
     <input type="radio" name="answer"  value="true">True</input>
@@ -60,17 +61,23 @@
     <input type="radio" name="answer" value="true">True</input>
     <input type="radio" name="answer" id="ans3" value="false">False</input>
     <button id="answer3">Submit</button>
-    <p></p>
+    <br>
+    <br>
     <button id="calculate">Calculate answer</button>
-    <p id=result></p>
+    <p id="result"></p>
+    <p id='access' class='hidden'>Here is Bianca's game:<a href='../Lock game/lock game.html' target='_blank'><button>Code Cracker</button></a></p>
+    <p id="scavresult"></p>
+</section>
   </section>
     <footer>
       <p>A Guide to Roseville College</p>
-      <p>©A Team Of People (page by Bianca)</p>
+      <p>©A Team Of People</p>
+      <a href="../Lock game/lock game.html" target='_blank'>Page by Bianca</a>
+
       <a href='https://www.roseville.nsw.edu.au/about-roseville/employment'>Image source</a>
     </footer>
     <script>
-    let i = 0;
+    let i = 1;
     function answered1() {
       answer1.textContent = "Submitted!"
       if (ans1.checked) {
@@ -97,11 +104,11 @@
         answer3.onclick = answered3;
 
         function resultgiver() {
-        if (i==2) {
+        if (i==3) {
           result.textContent = "So close! Re-read the page and you'll get it next time!";
           console.log("meh");
         }
-        else if (i==3) {
+        else if (i==4) {
           result.textContent = "Congrats! All correct! You are a respectful student! Good job!";
           console.log("good");
         }
@@ -112,5 +119,6 @@
     }
         calculate.onclick = resultgiver;
     </script>
+    <script src="../js/scavenger hunt2.js"></script>
     </body>
     </html>

@@ -1,14 +1,25 @@
 <!DOCTYPE html>
+<head>
+  <link rel='stylesheet' href='crud.css'>
+</head>
 <body>
-  <input id=input>
-  <ul id = 'letters'>
-    <li id=l1>_</li>
-    <li id=l2>_</li>
-    <li id=l3>_</li>
-    <li id=l4>_</li>
-    <li id=l5>_</li>
-    <li id=l6>_</li>
-    <li id=l7>_</li>
-  </ul>
+  <h1>Hangman</h1>
+  <img id='hangman' src='Hangman-0.png'></img>
+  <section id='play'>
+    <p>Letter: <input id='guess' maxlength="1"> <button id='button'></button></p>
+    <ul id = 'letters'>
+      <li id='l0'>_</li>
+      <li id='l1'>_</li>
+      <li id='l2'>_</li>
+      <li id='l3'>_</li>
+      <li id='l4'>_</li>
+      <li id='l5'>_</li>
+      <li id='l6'>_</li>
+    </ul>
+    <p id='wrong'></p>
+    <p id='wrongness' class='hide'>You have already tried this letter!<button id='ok'>Ok</button></p>
+  </section>
+  <p id='lost' class='hide'>Unfortunately, you have lost. Try again next time.</p>
+  <p id='win' class='hide'>Great job! You have found the word.</p>
 </body>
 <script src='thingos.js'></script>

@@ -3,11 +3,20 @@
 .headerGS{
  background-image:url('../images/goalsetting.jpg');
 }
+/*
+header{
+  padding:240px;
+  text-align: center;
+  font-size: 60px;
+  font-family:"Amatic SC";
+}
+*/
 
 span{
-  font-weight: bold;
-  text-decoration: underline;
-  color: red;
+  font-family:"Balsamiq Sans";
+  text-decoration: bold;
+  color: black;
+  font-size: 15px;
 }
 
 .GScontent{
@@ -49,32 +58,6 @@ mark {
   border: 3px dashed #ebebeb;
 }
 
-.submitbutton {
-  color:black;
-  background-color:snow;
-  font-family:"Balsamiq Sans";
-  width:100%;
-  text-align:middle;
-  font-size:16px;
-  border-color:darkgrey;
-  border-radius: 0;
-  border: 2px solid grey;
-}
-.submitbutton:hover{
-  background-color:#ebebeb;
-}
-.submit {
-  color:black;
-  background-color:snow;
-  font-family:"Balsamiq Sans";
-  width:10%;
-  text-align:center;
-  font-size:16px;
-  border-color:darkgrey;
-  border-radius: 0;
-  border: 2px solid grey;
-
-}
 
 .checklist{
   display: flex;
@@ -95,10 +78,23 @@ input{
   background: #ebebeb;
   color: black;
   font-family:"Amatic SC";
-  background-image:url('../images/goals2020.jpg');
+  background-image:url('../images/work.jpg');
   background-size:cover;
   background-attachment:fixed;
 }
+
+.lastheader {
+  padding: 150px;
+  text-align: center;
+  background: #ebebeb;
+  color: black;
+  font-family:"Amatic SC";
+  background-image:url('../images/diary.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+
 
 .div2 {
   width: 300px;
@@ -107,18 +103,6 @@ input{
   border: 1px solid red;
 }
 
-
-
-.lastheader {
-  padding: 150px;
-  text-align: center;
-  background: #ebebeb;
-  color: black;
-  font-family:"Amatic SC";
-  background-image:url('../images/goals2020.jpg');
-  background-size:cover;
-  background-attachment:fixed;
-}
 
 .fillintext {
   text-align: center;
@@ -141,5 +125,12 @@ input{
 
 style{
 
-
 }
+
+Want to - not think and use i
+
+S - Specific: I want to gain skills by practising and make it to the chess team. I also want to be become the team leader.
+M- To complete the necessary training, I want to learn in the holidays.
+A- I believe this goal is achievable because I have the skills, motivation and ability to lead the team to success.
+R- I believe that I have the talent, and resources to make this better.
+T- I will be able to play master level by the end of the year!
