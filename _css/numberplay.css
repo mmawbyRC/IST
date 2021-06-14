@@ -1,0 +1,21 @@
+*{
+  text-align:center;
+  box-sizing:border-box;
+}
+#mynum{
+  width:80px;
+  margin:20px auto;
+  font-size:24px;
+}
+.button{
+  width:120px;
+  border-radius:5px;
+  padding:10px;
+  margin:20px auto;
+  display:block;
+}
+#result{
+  font-size:24px;
+  font-family:sans-serif;
+  color:orange;
+}
